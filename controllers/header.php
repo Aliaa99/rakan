@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <!-- Bootstrap Css -->
         <link rel="stylesheet" href="css/bootstrap-e.min.css" />
+        <link rel="stylesheet" href="fonts/font/stylesheet.css" />
+        <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
+
         <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
         <!-- Owl carousel -->
         <!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
@@ -27,9 +30,9 @@
             <style> 
         
         /* Text alignment for body */ 
-        body { 
+        /* body { 
             text-align: center; 
-        } 
+        }  */
           
           
         /* Styling modal */ 

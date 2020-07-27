@@ -49,14 +49,16 @@ body {
     margin: 0;
     height: 100%;
     font-family: $baseFont;
-    direction: rtl;
+    // direction: rtl;
 }
-
+* {
+    font-family: $baseFont;
+}
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'ITC-bd';
+    font-family: 'Proxima Nova Rg';
 }
 a {
-    font-family: 'ITC-bd';
+    font-family: 'Proxima Nova Rg';
 	line-height: 1.7;
 	margin: 0px;
 	-webkit-transition: all 0.4s;
@@ -155,6 +157,80 @@ input.personal-passport {
 }
 .margin-adjusting {
     margin: 6em 0;
+}
+.global-head {
+    background-color: $graybg;
+    padding: $size-5  $size-20 $size-10;
+    margin-top: $size-20;
+    border-radius: $size-10;
+    border: 1px solid $grayborder;
+    article p {
+        color: $grayborder;
+        font-size: $size-12;
+    }
+}
+.product-card {
+    border: 1px solid $graybg;
+    border-radius: 10px;
+    // padding: 15px 10px 10px;
+    h4 {
+        margin-top: $size-20;
+        color: $secColor;
+    }
+    &__img {
+        margin-top: $size-20;
+    }
+    &__p {
+        color: $grayborder;
+        font-size: $size-14;
+        margin-top: $size-14;
+    }
+    .btn-group {
+        margin-top: $size-12;
+    }
+    .btn-default {
+        color: #7e899c;
+        font-size: $size-12 !important;
+        border: 1px solid $graybg !important;
+        padding: 6px 8px !important;
+        &.is-favorite {
+            color: red !important;
+        }
+    }
+    .rate {
+        color: $gold;
+        font-size: $size-12;
+        i {
+            font-size: $size-16;
+        }
+    }
+}
+.size-10 {
+    font-size: $size-10;
+}
+.size-12 {
+    font-size: $size-12;
+}
+.color-gray {
+    color: #7e899c;
+}
+.color-black {
+    color: #000000;
+}
+.px-10 {
+    padding-left: $size-10;
+    padding-right: $size-10;
+}
+.px-0 {
+    padding-left:0;
+    padding-right:0;
+}
+.mb-4 {
+    margin-bottom: 4px;
+}
+.my-5 {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 /*** End Global Properties ***/
 

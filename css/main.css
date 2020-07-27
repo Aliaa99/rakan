@@ -37,16 +37,19 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "ITC-r";
-  direction: rtl;
+  font-family: "Proxima Nova Rg";
+}
+
+* {
+  font-family: "Proxima Nova Rg";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ITC-bd";
+  font-family: "Proxima Nova Rg";
 }
 
 a {
-  font-family: "ITC-bd";
+  font-family: "Proxima Nova Rg";
   line-height: 1.7;
   margin: 0px;
   -webkit-transition: all 0.4s;
@@ -71,14 +74,14 @@ input, textarea {
   outline: none;
 }
 input::placeholder, textarea::placeholder {
-  font-family: "ITC-r" !important;
+  font-family: "Proxima Nova Rg" !important;
   color: #DDD !important;
 }
 
 button {
   outline: none !important;
   border: none;
-  font-family: "ITC-r";
+  font-family: "Proxima Nova Rg";
   background: transparent;
 }
 button:hover {
@@ -155,6 +158,89 @@ input.personal-passport {
 
 .margin-adjusting {
   margin: 6em 0;
+}
+
+.global-head {
+  background-color: #f1f3f5;
+  padding: 5px 20px 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #c2cacf;
+}
+.global-head article p {
+  color: #c2cacf;
+  font-size: 12px;
+}
+
+.product-card {
+  border: 1px solid #f1f3f5;
+  border-radius: 10px;
+}
+.product-card h4 {
+  margin-top: 20px;
+  color: #cec47f;
+}
+.product-card__img {
+  margin-top: 20px;
+}
+.product-card__p {
+  color: #c2cacf;
+  font-size: 14px;
+  margin-top: 14px;
+}
+.product-card .btn-group {
+  margin-top: 12px;
+}
+.product-card .btn-default {
+  color: #7e899c;
+  font-size: 12px !important;
+  border: 1px solid #f1f3f5 !important;
+  padding: 6px 8px !important;
+}
+.product-card .btn-default.is-favorite {
+  color: red !important;
+}
+.product-card .rate {
+  color: #ffa41b;
+  font-size: 12px;
+}
+.product-card .rate i {
+  font-size: 16px;
+}
+
+.size-10 {
+  font-size: 10px;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.color-gray {
+  color: #7e899c;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.my-5 {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /*** End Global Properties ***/
@@ -312,6 +398,25 @@ header nav .container ul.navbar-left li a:hover {
 /********* End MAX MEDIA *********/
 /*** End _body-part. ***/
 /*** Start Footer ***/
+.upper-footer {
+  background-color: #f1f5f4;
+  margin-top: 6rem;
+}
+
+.lower-footer {
+  padding: 4rem 0;
+  background-color: #f7fafa;
+}
+.lower-footer .form-control {
+  border: none !important;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.lower-footer .form-control::placeholder {
+  font-family: "Proxima Nova Rg" !important;
+  font-size: 12px;
+}
+
 /*** End Footer ***/
 /* fluid 5 columns */
 .grid-sizer,
