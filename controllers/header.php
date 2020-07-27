@@ -98,7 +98,7 @@
         <div class="language-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-xs-4">
                         <div class="dropdown">
                             <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span>اللغة العربية
                             <span> <img src="images/002.png"> </span>
@@ -109,7 +109,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-8 text-center">
                         <img src="images/logo.png" width="50%" alt="">
                     </div>
                 </div>
@@ -132,10 +132,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php">Home<i class="fa fa-home px-5"></i></a></li>
-                    <li><a href="favorites.php">Favorites<i class="fa fa-heart px-5"></i></a></li>
-                    <li><a href="notifications.php">Notifications<i class="fa fa-bell px-5"></i></a></li>
-                    <li><a href="messages.php">Messages<i class="fa fa-envelope px-5"></i></a></li>
+                    <li class="active"><a href="categories.php"><i class="fa fa-home px-5"></i>Home</a></li>
+                    <li><a href="favorites.php"><i class="fa fa-heart px-5"></i>Favorites</a></li>
+                    <li><a href="notifications.php"><i class="fa fa-bell px-5"></i>Notifications</a></li>
+                    <li><a href="messages.php"><i class="fa fa-envelope px-5"></i>Messages</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
