@@ -342,9 +342,15 @@ header nav .container ul.navbar-left li a:hover {
 
 /*** End Upper-Header ***/
 /*** Start _body-part.***/
+body #signupModal {
+  text-align: center !important;
+}
 body .signmodel .footer {
   font-size: 12px;
   margin-top: 10px;
+}
+body .signmodel .footer label {
+  padding: 5px;
 }
 body .signmodel .footer a {
   color: #cec47f;

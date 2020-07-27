@@ -1,8 +1,14 @@
 body{
+    #signupModal{
+        text-align: center !important;
+    }
     .signmodel{
         .footer{
             font-size: $size-12;
             margin-top:$size-10;
+            label{
+                padding: $size-5;
+            }
             a{
                 color: $secColor;
             }
