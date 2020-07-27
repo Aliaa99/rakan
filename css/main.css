@@ -256,6 +256,48 @@ header nav .container ul.navbar-left li a:hover {
 
 /*** End Upper-Header ***/
 /*** Start _body-part.***/
+body .signmodel .footer {
+  font-size: 12px;
+  margin-top: 10px;
+}
+body .signmodel .footer a {
+  color: #cec47f;
+}
+body .signmodel .footer label {
+  color: #d0d5d9;
+}
+body .signmodel .footer p {
+  color: #d0d5d9;
+}
+body .pillsstyle li {
+  width: 48%;
+}
+body .pillsstyle li a {
+  padding: 5px 30px;
+  font-size: 12px;
+  background-color: #e3deb7;
+  color: white;
+}
+body .pillsstyle li a:hover {
+  background-color: #cec47f;
+}
+body .pillsstyle li:active a {
+  background-color: #cec47f !important;
+}
+body .myModalLabel {
+  margin: 20px;
+}
+body .signupform input {
+  margin: 10px 0px;
+}
+body .signupform button {
+  background-color: #cec47f;
+  padding: 5px;
+  width: 100%;
+  color: white;
+  border-radius: 4px;
+}
+
 /*** End _body-part. ***/
 /*** Start _body-part.***/
 /********* MIN MEDIA *********/
@@ -265,6 +307,10 @@ header nav .container ul.navbar-left li a:hover {
     margin: auto;
     padding: 40px 0px;
     font-size: 14px;
+  }
+
+  .signmodel {
+    width: 500px;
   }
 }
 /********* END MIN MEDIA *********/

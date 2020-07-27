@@ -20,35 +20,92 @@
          role="dialog" aria-labelledby="myModalLabel"
          aria-hidden="true"> 
   
-        <div class="modal-dialog"> 
+        <div class="modal-dialog signmodel"> 
             <div class="modal-content"> 
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign up</a></li>
+
+                <ul class="nav nav-pills pillsstyle">
+                    <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
+                    <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
                 </ul>
 
-                <!-- Modal root -->
-                <div class="m-header"> 
-                    <h2 class="myModalLabel"> Sign Up </h2> 
-                </div> 
-  
                 <!-- Modal body -->
-                    <form>
-                        <!-- username input -->
-                        <input type="text" class="form-control" id="username" placeholder="Username"> 
-                        <input type="text" class="form-control" id="username" placeholder="Username"> 
-                        <input type="text" class="form-control" id="username" placeholder="Username"> 
+                <div class="tab-content">
+                    <!-- signup tap -->
+                    <div id="home" class="tab-pane fade in active">
+                        
+                                    <!-- Modal root -->
+                        <div class="m-header"> 
+                            <h4 class="myModalLabel"> Sign Up </h4> 
+                        </div> 
+  
 
+                        <form class="signupform">
+                            <!-- username input -->
+                            <input type="text" class="form-control" id="username" placeholder="Username"> 
+                            <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
+                            <input type="email" class="form-control" id="email" placeholder="Email"> 
+                            <input type="text" class="form-control" id="country" placeholder="country"> 
+                            <input type="password" class="form-control" id="password" placeholder="password"> 
+                            <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
 
-                        <button type="submit">Sign Up</button> 
-                    </form>
-                        <!-- Modal footer -->
+                            <button type="submit">Sign Up</button> 
+                        </form>
+
+                                        <!-- Modal footer -->
                         <div class="footer"> 
+                            <form>
+                                <a href="#">terems&conditions</a>
+                                <label class="checkbox-inline">
+                                    I agree to all
+                                </label>
+                                <input type="checkbox" value="">
+                            </form>
                             <p> 
-                                Already have an account?! 
-                                <a href="#loginModal" data-toggle="modal" data-dismiss="modal"> Login! </a> 
+                                Already have an account ?
+                                <a href="#loginModal" data-toggle="modal" data-dismiss="modal"> Login </a> 
                             </p> 
                         </div> 
+
+                    </div>
+
+                    <!-- login tap -->
+
+                    <div id="menu1" class="tab-pane fade">
+
+                                                        <!-- Modal root -->
+                        <div class="m-header"> 
+                            <h4 class="myModalLabel"> Sign in </h4> 
+                        </div> 
+  
+
+                        <form class="signupform">
+                            <!-- username input -->
+                            <input type="text" class="form-control" id="username" placeholder="Username"> 
+                            <input type="email" class="form-control" id="email" placeholder="Email"> 
+                            <input type="password" class="form-control" id="password" placeholder="password"> 
+
+                            <button type="submit">Sign Up</button> 
+                        </form>
+
+                                        <!-- Modal footer -->
+                        <div class="footer"> 
+                            <form>
+                                <a href="#">terems&conditions</a>
+                                <label class="checkbox-inline">
+                                    I agree to all
+                                </label>
+                                <input type="checkbox" value="">
+                            </form>
+                            <p> 
+                                Already have an account ?
+                                <a href="#loginModal" data-toggle="modal" data-dismiss="modal"> Login </a> 
+                            </p> 
+                        </div> 
+
+                    </div>
+
+                </div>
+
             </div> 
         </div> 
 

@@ -1,0 +1,53 @@
+body{
+    .signmodel{
+        .footer{
+            font-size: $size-12;
+            margin-top:$size-10;
+            a{
+                color: $secColor;
+            }
+            label{
+                color: $forthcolor;
+            }
+            p{
+                color: $forthcolor;
+            }
+        }
+    }
+    .pillsstyle{
+        li {
+            width: 48%;
+            a {
+                padding: 5px 30px;
+                font-size: 12px;
+                background-color: $thirdColor;
+                color: white;
+                &:hover{
+                    background-color: $secColor;
+                }
+            }
+            &:active {
+                a{
+                    background-color: $secColor !important;
+                }
+                
+            }
+
+        }
+    }
+    .myModalLabel{
+        margin: $size-20;
+    }
+    .signupform {
+        input{
+            margin: $size-10 0px;
+        }
+        button{
+            background-color: $secColor;
+            padding: 5px;
+            width: 100%;
+            color: white;
+            border-radius: 4px;
+        }
+    }
+}
