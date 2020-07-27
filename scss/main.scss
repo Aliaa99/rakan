@@ -189,12 +189,16 @@ input.personal-passport {
         margin-top: $size-12;
     }
     .btn-default {
-        color: #7e899c;
+        color: #7e899c !important;
         font-size: $size-12 !important;
         border: 1px solid $graybg !important;
         padding: 6px 8px !important;
         &.is-favorite {
             color: red !important;
+        }
+        a {
+            color: #7e899c !important;
+            line-height: 1 !important;
         }
     }
     .rate {
@@ -231,6 +235,22 @@ input.personal-passport {
 .my-5 {
     margin-bottom: 5px;
     margin-top: 5px;
+}
+.m-h-50 {
+    min-height: 50vh;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+    float: initial !important;
+}
+.about {
+    background: url(../images/bg.png);
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*** End Global Properties ***/
 

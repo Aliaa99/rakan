@@ -1,7 +1,7 @@
 <?php
     include 'controllers/header.php';
 ?>
-<div class="container">
+<div class="container m-h-50">
     <section class="global-head">
         <article>
             <h4><strong>Notifications and Alerts</strong></h4>

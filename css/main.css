@@ -192,13 +192,17 @@ input.personal-passport {
   margin-top: 12px;
 }
 .product-card .btn-default {
-  color: #7e899c;
+  color: #7e899c !important;
   font-size: 12px !important;
   border: 1px solid #f1f3f5 !important;
   padding: 6px 8px !important;
 }
 .product-card .btn-default.is-favorite {
   color: red !important;
+}
+.product-card .btn-default a {
+  color: #7e899c !important;
+  line-height: 1 !important;
 }
 .product-card .rate {
   color: #ffa41b;
@@ -243,6 +247,25 @@ input.personal-passport {
   margin-top: 5px;
 }
 
+.m-h-50 {
+  min-height: 50vh;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+  float: initial !important;
+}
+
+.about {
+  background: url(../images/bg.png);
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*** End Global Properties ***/
 /*** Start Upper-Header ***/
 header .upnav {
@@ -278,7 +301,6 @@ header nav .container .navbar-header a.navbar-brand {
 header nav .container .navbar-header span.fa-bars {
   color: white;
   font-size: 2em;
-  margin-top: 1em;
 }
 header nav .container ul.navbar-nav li.active a {
   color: #cec47f;
