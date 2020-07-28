@@ -61,6 +61,34 @@ body{
             border-radius: 4px;
         }
     }
+// sideprofile
+    .sideprofile {
+        border-left: 1px solid $forthcolor;
+        border-right: 1px solid $forthcolor;
+        border-bottom: 1px solid $forthcolor;
+        border-radius: $size-10;
+        ul{
+            border-bottom:0px;
+            li{
+                &:not(:last-child) {
+                    border-bottom: 1px solid $forthcolor;
+                }
+                &:hover {
+                    a{
+                        border: 1px solid transparent;
+                    }
+                }
+                &:active{
+                    a{
+                        border: 0px;
+                        color: black;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+    }
 }
 
 .ml-ne{

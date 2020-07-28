@@ -428,6 +428,26 @@ body .signupform button {
   color: white;
   border-radius: 4px;
 }
+body .sideprofile {
+  border-left: 1px solid #d0d5d9;
+  border-right: 1px solid #d0d5d9;
+  border-bottom: 1px solid #d0d5d9;
+  border-radius: 10px;
+}
+body .sideprofile ul {
+  border-bottom: 0px;
+}
+body .sideprofile ul li:not(:last-child) {
+  border-bottom: 1px solid #d0d5d9;
+}
+body .sideprofile ul li:hover a {
+  border: 1px solid transparent;
+}
+body .sideprofile ul li:active a {
+  border: 0px;
+  color: black;
+  font-weight: 500;
+}
 
 .ml-ne {
   margin-left: -15px;
