@@ -266,6 +266,19 @@ input.personal-passport {
   background-repeat: no-repeat;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+input, .input-group-btn button {
+  box-shadow: inset 0 0 0 0 !important;
+  border: 1px solid #f1f3f5 !important;
+}
+input:focus, .input-group-btn button:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+}
+
 /*** End Global Properties ***/
 /*** Start Upper-Header ***/
 header .upnav {
@@ -404,6 +417,15 @@ body .signupform button {
   width: 100%;
   color: white;
   border-radius: 4px;
+}
+
+/*** End _body-part. ***/
+/*** Start _body-part.***/
+.collapse-area .panel-heading {
+  padding: 0 10px !important;
+}
+.collapse-area .panel-body {
+  padding: 0 20px;
 }
 
 /*** End _body-part. ***/

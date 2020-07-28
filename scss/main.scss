@@ -252,6 +252,17 @@ input.personal-passport {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.mt-20 {
+    margin-top: $size-20;
+}
+input, .input-group-btn button {
+    box-shadow: inset 0 0 0 0 !important;
+    border: 1px solid #f1f3f5 !important;
+    &:focus {
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #eee !important;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #eee !important;
+    }
+}
 /*** End Global Properties ***/
 
 /*** Start Upper-Header ***/
@@ -263,6 +274,10 @@ input.personal-passport {
 
 /*** Start _body-part.***/
 @import '_body-part';
+/*** End _body-part. ***/
+
+/*** Start _body-part.***/
+@import '_public';
 /*** End _body-part. ***/
 
 /*** Start _body-part.***/
