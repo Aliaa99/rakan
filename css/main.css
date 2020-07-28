@@ -267,7 +267,15 @@ input.personal-passport {
 }
 
 .mt-20 {
-  margin-top: 20px;
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
 }
 
 input, .input-group-btn button {
@@ -435,11 +443,72 @@ body .signupform button {
 
 /*** End _body-part. ***/
 /*** Start _body-part.***/
-.collapse-area .panel-heading {
-  padding: 0 10px !important;
+.main-filter {
+  border: 1px solid #f1f3f5;
+  padding: 14px;
+  min-height: 70vh;
+  border-radius: 12px;
 }
-.collapse-area .panel-body {
+.main-filter .collapse-area .panel-heading {
+  padding: 0 10px !important;
+  background-color: transparent !important;
+}
+.main-filter .collapse-area .panel-body {
   padding: 0 20px;
+}
+.main-filter .collapse-area .panel-default {
+  border-color: transparent !important;
+}
+.main-filter .collapse-area i.fa-chevron-down {
+  text-align: end;
+}
+
+.notifications {
+  border: 1px solid #f1f3f5;
+  padding: 0 20px 20px 20px;
+  border-radius: 12px;
+}
+.notifications-card {
+  border: 1px solid #f1f3f5;
+  padding: 14px;
+  border-radius: 12px;
+}
+.notifications-card p, .notifications-card span {
+  font-weight: 400 !important;
+}
+.notifications-card img {
+  border-radius: 50%;
+}
+
+a:focus, a:hover {
+  text-decoration: none !important;
+}
+
+.padding-adjust {
+  padding: 10px 30px !important;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #f1f3f5;
+}
+
+.comment-area {
+  background-color: #f1f5f4;
+  padding: 30px 0;
+  margin-bottom: 5px;
+}
+
+.btn-link {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 7px 24px !important;
+}
+.btn-link:hover {
+  border: 1px solid;
+  text-decoration: none;
 }
 
 /*** End _body-part. ***/
@@ -508,7 +577,6 @@ body .signupform button {
 /*** Start Footer ***/
 .upper-footer {
   background-color: #f1f5f4;
-  margin-top: 6rem;
 }
 
 .lower-footer {

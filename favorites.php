@@ -1,7 +1,7 @@
 <?php
     include 'controllers/header.php';
 ?>
-<div class="container">
+<div class="container mb-60">
     <section class="global-head">
         <article>
             <h4><strong>My Favorite List</strong></h4>

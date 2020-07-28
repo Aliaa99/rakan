@@ -1,7 +1,7 @@
 <?php
     include 'controllers/header.php';
 ?>
-<div class="container">
+<div class="container mb-60">
     <div class="row">
         <div class="col-md-3">
             <section class="global-head">
@@ -10,67 +10,72 @@
                     <p><small>Select what you want</small></p>
                 </article>
             </section>
-            <section class="collapse-area">
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                            Men</a>
-                        </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Pants</label>
+            <main class="main-filter">
+                <section class="collapse-area">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                <p>Men</p></a>
+                            </h4>
+                            </div>
+                            <!-- give this class 'in' to make it not collapsed
+                            for ex class="panel-collapse collapse in" -->
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Pants</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Rolex</label>
+                                    </div>
                                 </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Rolex</label>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                <p>Women </p> </a>
+                                <!-- <i class="fa fa-chevron-down"></i> -->
+                            </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Perfume</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Clothes</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            Women</a>
-                        </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Perfume</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Clothes</label>
-                                </div>
-                            </div>
-                        </div>
+                </section>
+                <section class="mt-30">
+                    <h4>Country</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search by name ..">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+                        </span>
                     </div>
-                </div>
-            </section>
-            <section class="mt-20">
-                <h4><strong>Country</strong></h4>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search by name ..">
-                    <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
-                    </span>
-                </div>
-            </section>
-            <section class="mt-20">
-                <h4><strong>Filter For</strong></h4>
-                <div class="radio">
-                    <label><input type="radio" name="filterfor">Newest</label>
-                    </div>
+                </section>
+                <section class="mt-30">
+                    <h4>Filter For</h4>
                     <div class="radio">
-                    <label><input type="radio" name="filterfor">Best Offer</label>
+                        <label><input type="radio" name="filterfor">Newest</label>
+                        </div>
+                        <div class="radio">
+                        <label><input type="radio" name="filterfor">Best Offer</label>
+                        </div>
+                        <div class="radio">
+                        <label><input type="radio" name="filterfor">Best Selling</label>
                     </div>
-                    <div class="radio">
-                    <label><input type="radio" name="filterfor">Best Selling</label>
-                </div>
-            </section>
+                </section>
+            </main>
         </div>
         <div class="col-md-9">
             <div class="row">
