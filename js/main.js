@@ -1,6 +1,12 @@
 $(function() {
     'use strict';
 
+    $('.logintab').click(function () {
+        $('.pillsstyle li').toggleClass("active");
+    
+    });
+
+
     // $("header ul.navbar-nav li").click(function (ee){
     //     // ee.preventDefault();
     //     $(this).addClass('active').siblings().removeClass('active');

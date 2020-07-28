@@ -54,15 +54,15 @@
                                         <!-- Modal footer -->
                         <div class="footer"> 
                             <form>
-                                <a href="#">terems&conditions</a>
+                                <input type="checkbox" value="">
                                 <label class="checkbox-inline">
                                     I agree to all
                                 </label>
-                                <input type="checkbox" value="">
+                                <a href="#">terems&conditions</a>
                             </form>
                             <p> 
                                 Already have an account ?
-                                <a href="#loginModal" data-toggle="modal" data-dismiss="modal"> Login </a> 
+                                <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
                             </p> 
                         </div> 
 
@@ -72,7 +72,7 @@
 
                     <div id="menu1" class="tab-pane fade">
 
-                                                        <!-- Modal root -->
+                            <!-- Modal root -->
                         <div class="m-header"> 
                             <h4 class="myModalLabel"> Sign in </h4> 
                         </div> 
@@ -98,7 +98,7 @@
                             </form>
                             <p> 
                                 Already have an account ?
-                                <a href="#loginModal" data-toggle="modal" data-dismiss="modal"> Login </a> 
+                                <a href="#menu1" data-toggle="modal" data-dismiss="modal"> Login </a> 
                             </p> 
                         </div> 
 
