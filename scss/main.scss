@@ -253,7 +253,13 @@ input.personal-passport {
     background-repeat: no-repeat;
 }
 .mt-20 {
-    margin-top: $size-20;
+    margin-top: $size-20 !important;
+}
+.mt-30 {
+    margin-top: $size-30 !important; 
+}
+.mb-60 {
+    margin-bottom: 60px !important; 
 }
 input, .input-group-btn button {
     box-shadow: inset 0 0 0 0 !important;
