@@ -364,7 +364,10 @@ header nav .container ul.navbar-left li a:hover {
 
 /*** End Upper-Header ***/
 /*** Start _body-part.***/
-body #signupModal {
+body #signupModal,
+body #forgetpass,
+body #resetpass,
+body #newresetpass {
   text-align: center !important;
 }
 body .signmodel .footer {
@@ -400,6 +403,7 @@ body .pillsstyle li:active a {
 }
 body .myModalLabel {
   margin: 20px;
+  text-transform: uppercase !important;
 }
 body .signupform input {
   margin: 10px 0px;
@@ -410,6 +414,10 @@ body .signupform button {
   width: 100%;
   color: white;
   border-radius: 4px;
+}
+
+.ml-ne {
+  margin-left: -15px;
 }
 
 /*** End _body-part. ***/
@@ -425,6 +433,10 @@ body .signupform button {
 
   .signmodel {
     width: 500px;
+  }
+
+  .special {
+    width: 22.5% !important;
   }
 }
 /********* END MIN MEDIA *********/

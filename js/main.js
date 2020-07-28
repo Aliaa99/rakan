@@ -7,6 +7,30 @@ $(function() {
     });
 
 
+    $(document).ready(function () {
+        $('#emailpassword').on('submit', function (e) {
+            $('#resetpass').modal('show');
+            e.preventDefault();
+        });
+    });
+
+    $(document).ready(function () {
+        $('#codepass').on('submit', function (e) {
+            $('#newresetpass').modal('show');
+            e.preventDefault();
+        });
+    });
+
+    $(document).ready(function () {
+        $('#newpass').on('submit', function (e) {
+            $('#resetpass , #newresetpass ,#newpass ,#forgetpass').modal('hide');
+            e.preventDefault();
+        });
+    });
+
+    
+
+
     // $("header ul.navbar-nav li").click(function (ee){
     //     // ee.preventDefault();
     //     $(this).addClass('active').siblings().removeClass('active');

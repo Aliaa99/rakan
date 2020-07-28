@@ -1,5 +1,9 @@
 body{
-    #signupModal{
+    #signupModal,
+    #forgetpass,
+    #resetpass,
+    #newresetpass
+    {
         text-align: center !important;
     }
     .signmodel{
@@ -43,6 +47,7 @@ body{
     }
     .myModalLabel{
         margin: $size-20;
+        text-transform: uppercase !important;
     }
     .signupform {
         input{
@@ -56,4 +61,8 @@ body{
             border-radius: 4px;
         }
     }
+}
+
+.ml-ne{
+    margin-left: -15px;
 }

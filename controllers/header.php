@@ -140,11 +140,13 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
-                        <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span> <img src="images/002.png" alt=""></span>  
-                         اللغة العربية   <span class="caret"></span>
+                        <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">  
+                          Usernme<span> <img src="images/002.png" alt=""></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="#">ُاللغة العربية</a></li>
+                            <li><a href="my-profile.php">
+                            <i class="icon-person px-5"></i>    
+                            My Profile</a></li>
                             <li><a href="#">ُُالانجليزيه</a></li>
                         </ul>
                     </div>

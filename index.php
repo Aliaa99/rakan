@@ -13,101 +13,143 @@
             </div>
         </div>
 
+            <!-- sigup modal -->
+        <div class="modal" id="signupModal"
+            role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true"> 
+    
+            <div class="modal-dialog signmodel"> 
+                <div class="modal-content"> 
 
+                    <ul class="nav nav-pills pillsstyle">
+                        <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
+                        <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
+                    </ul>
 
-  
-    <div class="modal" id="signupModal"
-         role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true"> 
-  
-        <div class="modal-dialog signmodel"> 
-            <div class="modal-content"> 
-
-                <ul class="nav nav-pills pillsstyle">
-                    <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
-                    <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
-                </ul>
-
-                <!-- Modal body -->
-                <div class="tab-content">
-                    <!-- signup tap -->
-                    <div id="home" class="tab-pane fade in active">
-                        
-                                    <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> Sign Up </h4> 
-                        </div> 
-  
-
-                        <form class="signupform">
-                            <!-- username input -->
-                            <input type="text" class="form-control" id="username" placeholder="Username"> 
-                            <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
-                            <input type="email" class="form-control" id="email" placeholder="Email"> 
-                            <input type="text" class="form-control" id="country" placeholder="country"> 
-                            <input type="password" class="form-control" id="password" placeholder="password"> 
-                            <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
-
-                            <button type="submit">Sign Up</button> 
-                        </form>
-
-                                        <!-- Modal footer -->
-                        <div class="footer"> 
-                            <form>
-                                <input type="checkbox" value="">
-                                <label class="checkbox-inline">
-                                    I agree to all
-                                </label>
-                                <a href="#">terems&conditions</a>
+                    <!-- Modal body -->
+                    <div class="tab-content">
+                        <!-- signup tap -->
+                        <div id="home" class="tab-pane fade in active">
+                            
+                                        <!-- Modal root -->
+                            <div class="m-header"> 
+                                <h4 class="myModalLabel"> Sign Up </h4> 
+                            </div> 
+                            <form class="signupform" action="/new folder/categories.php">
+                                <!-- username input -->
+                                <input type="text" class="form-control" id="username" placeholder="Username"> 
+                                <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
+                                <input type="email" class="form-control" id="email" placeholder="Email"> 
+                                <input type="text" class="form-control" id="country" placeholder="country"> 
+                                <input type="password" class="form-control" id="password" placeholder="password"> 
+                                <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
+                                <button type="submit">Sign Up</button> 
                             </form>
-                            <p> 
-                                Already have an account ?
-                                <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
-                            </p> 
-                        </div> 
+                                <!-- Modal footer -->
+                            <div class="footer"> 
+                                <form>
+                                    <input type="checkbox" value="">
+                                    <label class="checkbox-inline">
+                                        I agree to all
+                                    </label>
+                                    <a href="#">terems&conditions</a>
+                                </form>
+                                <p> 
+                                    Already have an account ?
+                                    <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
+                                </p> 
+                            </div> 
+                        </div>
 
+                        <!-- login tap -->
+
+                        <div id="menu1" class="tab-pane fade">
+                                <!-- Modal root -->
+                            <div class="m-header"> 
+                                <h4 class="myModalLabel"> Log in </h4> 
+                            </div> 
+                            <form class="signupform" action="/new folder/categories.php">
+                                <!-- username input -->
+                                <input type="text" class="form-control" id="username" placeholder="Email/Username"> 
+                                <input type="password" class="form-control" id="password" placeholder="password"> 
+
+                                <button type="submit">Log in</button> 
+                            </form>
+                                <!-- Modal footer -->
+                            <div class="footer"> 
+                                <a href="#forgetpass" data-toggle="modal">forget password</a>
+                                <p> 
+                                    Don't have an account ?
+                                    <a href="#home" data-toggle="pill" class="logintab"> sign up </a> 
+                                </p> 
+                            </div> 
+                        </div>
                     </div>
+                </div> 
+            </div> 
+        </div>
 
-                    <!-- login tap -->
+            <!-- forget pass -->
+        <div class="modal" id="forgetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog signmodel ml-ne"> 
+                <div class="modal-content"> 
 
-                    <div id="menu1" class="tab-pane fade">
+                    <form class="signupform " id="emailpassword">
+                            <!-- Modal root -->
+                        <div class="m-header"> 
+                            <h4 class="myModalLabel"> forget password </h4> 
+                        </div> 
+                        <!-- username input -->
+                        <input type="email" class="form-control" id="email" placeholder="Email"> 
+                        <button type="submit" class="toforget">send</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+            <!-- reset password  -->
+        <div class="modal" id="resetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog signmodel ml-ne"> 
+                <div class="modal-content">         
+                    <form class="signupform form-inline " id="codepass">
 
                             <!-- Modal root -->
                         <div class="m-header"> 
-                            <h4 class="myModalLabel"> Sign in </h4> 
+                            <h4 class="myModalLabel"> forget password </h4> 
                         </div> 
-  
-
-                        <form class="signupform">
-                            <!-- username input -->
-                            <input type="text" class="form-control" id="username" placeholder="Username"> 
-                            <input type="email" class="form-control" id="email" placeholder="Email"> 
-                            <input type="password" class="form-control" id="password" placeholder="password"> 
-
-                            <button type="submit">Sign Up</button> 
-                        </form>
-
-                                        <!-- Modal footer -->
-                        <div class="footer"> 
-                            <form>
-                                <a href="#">terems&conditions</a>
-                                <label class="checkbox-inline">
-                                    I agree to all
-                                </label>
-                                <input type="checkbox" value="">
-                            </form>
-                            <p> 
-                                Already have an account ?
-                                <a href="#menu1" data-toggle="modal" data-dismiss="modal"> Login </a> 
-                            </p> 
-                        </div> 
-
-                    </div>
-
+                        <!-- username input -->
+                        <input type="number" class="form-control special" id="number" placeholder="__"> 
+                        <input type="number" class="form-control special" id="number2" placeholder="__"> 
+                        <input type="number" class="form-control special" id="number3" placeholder="__"> 
+                        <input type="number" class="form-control special" id="number4" placeholder="__"> 
+                        <button type="submit" class="toforget">confirm</button> 
+                    </form>
                 </div>
+            </div>
+        </div>
 
-            </div> 
-        </div> 
+
+            <!-- confirm reset password  -->
+        <div class="modal" id="newresetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog signmodel ml-ne"> 
+                <div class="modal-content">         
+                    <form class="signupform " id="newpass" >
+                            <!-- Modal root -->
+                        <div class="m-header"> 
+                            <h4 class="myModalLabel"> New password </h4> 
+                        </div> 
+                        <!-- username input -->
+                        <input type="text" class="form-control" id="text" placeholder="New password"> 
+                        <input type="text" class="form-control" id="text" placeholder="confirm New password"> 
+                        <button type="submit" class="toforget" >confirm</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
 
 
 
