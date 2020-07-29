@@ -63,31 +63,43 @@ body{
     }
 // sideprofile
     .sideprofile {
-        border-left: 1px solid $forthcolor;
-        border-right: 1px solid $forthcolor;
-        border-bottom: 1px solid $forthcolor;
-        border-radius: $size-10;
         ul{
-            border-bottom:0px;
+            border: 1px solid $fifthcolor;
+            margin-top: -5px;
+            border-top: 0px;
             li{
-                &:not(:last-child) {
-                    border-bottom: 1px solid $forthcolor;
-                }
-                &:hover {
-                    a{
-                        border: 1px solid transparent;
-                    }
+                a{
+                    color: $forthcolor;
+                    border-bottom: 1px solid $fifthcolor;
                 }
                 &:active{
                     a{
-                        border: 0px;
                         color: black;
                         font-weight: 500;
+                        border: 0;
                     }
                 }
             }
         }
 
+    }
+// profile page
+    .profilepage{
+        margin-bottom: 60px;
+        form{
+            border: 1px solid $fifthcolor;
+            padding: 25px;
+            margin-top: -5px;
+            border-top: 0;
+            label{
+                font-size: $size-12;
+            }
+            button{
+                padding: 5px 25px;
+                font-size: $size-12;
+                margin: 0px 20px;
+            }
+        }
     }
 }
 
