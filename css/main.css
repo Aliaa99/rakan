@@ -327,7 +327,7 @@ header nav .container ul.navbar-nav li.active a {
   color: #cec47f;
 }
 header nav .container ul.navbar-nav li a {
-  font-family: "ITC-r";
+  font-family: "Proxima Nova Rg";
   color: #FFF;
 }
 header nav .container ul.navbar-nav li a:hover {
@@ -335,7 +335,7 @@ header nav .container ul.navbar-nav li a:hover {
 }
 header nav .container ul.navbar-left li a {
   background-color: #cec47f;
-  font-family: "ITC-bd";
+  font-family: "Proxima Nova Rg";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
