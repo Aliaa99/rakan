@@ -436,29 +436,95 @@ body .signupform button {
   color: white;
   border-radius: 4px;
 }
-body .sideprofile {
-  border-left: 1px solid #d0d5d9;
-  border-right: 1px solid #d0d5d9;
-  border-bottom: 1px solid #d0d5d9;
-  border-radius: 10px;
+body .sideprofile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 body .sideprofile ul {
-  border-bottom: 0px;
+  border: 1px solid #f6f7f9;
+  margin-top: -5px;
+  border-top: 0px;
 }
-body .sideprofile ul li:not(:last-child) {
-  border-bottom: 1px solid #d0d5d9;
-}
-body .sideprofile ul li:hover a {
-  border: 1px solid transparent;
+body .sideprofile ul li a {
+  color: #d0d5d9;
+  border-bottom: 1px solid #f6f7f9;
 }
 body .sideprofile ul li:active a {
-  border: 0px;
   color: black;
   font-weight: 500;
+  border: 0;
+}
+body .profilepage {
+  margin-bottom: 60px;
+}
+body .profilepage form {
+  border: 1px solid #f6f7f9;
+  padding: 25px;
+  margin-top: -5px;
+  border-top: 0;
+}
+body .profilepage form label {
+  font-size: 12px;
+}
+body .profilepage form button {
+  padding: 5px 25px;
+  font-size: 12px;
+  margin: 0px 20px;
+}
+body .edit-pro {
+  padding: 7px;
+  text-transform: uppercase;
+  background-color: #f6f7f9;
+  font-size: 12px;
+}
+body #delete .modal-content {
+  padding: 0;
+}
+body #delete .modal-body {
+  padding: 0;
+}
+body #delete section {
+  margin: 0;
+  border-radius: 5px;
+}
+body #delete .close {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+body #delete .modal-buttons {
+  padding: 20px;
+}
+body #delete button {
+  padding: 5px 25px;
+  margin: 0px 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+body #delete .cancel {
+  color: #d0d5d9;
+  font-size: 12px;
 }
 
 .ml-ne {
   margin-left: -15px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.newcolor {
+  color: #cec47f;
+}
+
+.padingstyle {
+  padding: 12px 20px;
 }
 
 /*** End _body-part. ***/
@@ -548,6 +614,14 @@ textarea {
 
   .special {
     width: 22.5% !important;
+  }
+
+  .profilepage form {
+    height: 360px;
+  }
+
+  #delete .modal-dialog {
+    width: 30%;
   }
 }
 /********* END MIN MEDIA *********/

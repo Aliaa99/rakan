@@ -145,9 +145,11 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li><a href="my-profile.php">
-                            <i class="icon-person px-5"></i>    
-                            My Profile</a></li>
-                            <li><a href="#">ُُالانجليزيه</a></li>
+                                <i class="icon-person px-5"></i>    
+                                My Profile</a></li>
+                            <li><a href="advertisment.php">
+                                <i class="icon-person px-5"></i>                
+                                 my advertisment</a></li>
                         </ul>
                     </div>
                 </ul>
