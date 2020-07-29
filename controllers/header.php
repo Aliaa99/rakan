@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <!-- Tab Title -->
-        <title>Tele</title>
+        <title>Rakan</title>
         <!-- Shortcut Icon -->
-        <link rel="shortcut icon" href="images/001.png" />
+        <link rel="shortcut icon" href="images/logoicon.png" />
         <!-- Font Awesome Css -->
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <!-- Bootstrap Css -->
@@ -132,24 +132,24 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="categories.php"><i class="fa fa-home px-5"></i>Home</a></li>
-                    <li><a href="favorites.php"><i class="fa fa-heart px-5"></i>Favorites</a></li>
-                    <li><a href="notifications.php"><i class="fa fa-bell px-5"></i>Notifications</a></li>
-                    <li><a href="messages.php"><i class="fa fa-envelope px-5"></i>Messages</a></li>
+                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>Home</a></li>
+                    <li><a href="favorites.php" class="main-link"><i class="fa fa-heart px-5"></i>Favorites</a></li>
+                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell px-5"></i>Notifications</a></li>
+                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope px-5"></i>Messages</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
-                        <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">  
-                          Usernme<span> <img src="images/002.png" alt=""></span>
+                        <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
+                          <span class="caret color-white"></span><span class="color-white font-regular px-adjust">Ahmed Mahmoud</span><span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span>
                         </button>
                         <ul class="dropdown-menu">
                             <li><a href="my-profile.php">
                                 <i class="icon-person px-5"></i>    
                                 My Profile</a></li>
                             <li><a href="advertisment.php">
-                                <i class="icon-person px-5"></i>                
-                                 my advertisment</a></li>
+                                <i class="icon-ads px-5"></i>                
+                                 My Advertisment</a></li>
                         </ul>
                     </div>
                 </ul>

@@ -1,8 +1,4 @@
 header {
-
-    // min-height: 100vh;
-    // background: url(../images/003.png);
-    // background-size: cover;
     .upnav {
         background-color: $stColor;
         color: white;
@@ -14,12 +10,6 @@ header {
             padding: 0px $size-20;
         }
     }
-
-    //background: url(../images/003.png);
-    //background-position: center;
-    //background-size: cover;
-    //background-repeat: no-repeat;
-
     .language-area {
         text-align: left;
         padding: $size-12 0px;
@@ -33,7 +23,6 @@ header {
             }
         }
     }
-
     nav {
         background-color: $stColor;
         border-radius: 0px !important;
@@ -58,18 +47,17 @@ header {
                         color: $secColor;
                     }
                 }
-
                 li {
-
-                    // padding: 2.5em 1em 2.5em 0;
+                    a.main-link {
+                        color: $white;
+                    }
                     a {
                         font-family: $baseFont;
-                        color: $white;
-
                         &:hover {
                             color: $secColor;
                         }
                     }
+                    
                 }
             }
 
@@ -89,40 +77,27 @@ header {
             }
         }
     }
-
-    // .tele-academy-des {
-    //     padding: 6em 0 12em 0;
-    //     h3 {
-    //         color: $white;
-    //         font-family: 'ITC-bd';
-    //         a {
-    //             color: $secColor;
-    //             font-family: 'ITC-bd';
-    //             font-size: 2.5em;
-    //         }
-    //     }
-    //     p {
-    //         color: $white;
-    //         width: 80%;
-    //         margin: auto;
-    //         line-height: 2;
-    //         font-size: 17px;
-    //     }
-    // }
-    // .tele-academy-paging {
-    //     padding: 1em 0 4em;
-    //     a {
-    //         color: $white;
-    //         font-size: 22px;
-    //     }
-    //     span {
-    //         color: $secColor;
-    //         font-size: 3em;
-    //         font-weight: bold;
-    //     }
-    // }
 }
-
+.py-15 {
+    padding-bottom: 4px;
+    padding-top: 12px;
+}
+.font-regular {
+    font-family: $baseFont !important;
+}
+.rounded {
+    border-radius: 50%;
+}
+.mb-3 {
+    margin-bottom: 4px;
+}
+.px-adjust {
+    padding-right: 3px;
+    padding-left: 6px;
+}
+.color-white {
+    color: white !important;
+}
 // home style
 .tele-academy-paging {
     background: url(../images/bg.png);
