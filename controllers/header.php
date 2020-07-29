@@ -98,8 +98,12 @@
         <div class="language-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-4">
-                        <div class="dropdown">
+                    <div class="col-md-2 col-sm-3 col-xs-4">
+                        <select class="form-control" id="">
+                            <option value="" >Arabic</option>
+                            <option value="" selected>English </option>
+                        </select>
+                        <!-- <div class="dropdown">
                             <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span>اللغة العربية
                             <span> <img src="images/002.png"> </span>
                             </button>
@@ -107,10 +111,10 @@
                                 <li><a href="#">ُاللغة العربية</a></li>
                                 <li><a href="#">ُُُالانجليزيه</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-8 text-center">
-                        <img src="images/logo.png" width="50%" alt="">
+                    <div class="col-md-8 col-sm-6 col-xs-8 text-center">
+                        <img src="images/logo.png" width="120px" alt="">
                     </div>
                 </div>
             </div>
