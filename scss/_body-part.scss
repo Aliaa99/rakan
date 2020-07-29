@@ -63,6 +63,12 @@ body{
     }
 // sideprofile
     .sideprofile {
+        img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+
+        }
         ul{
             border: 1px solid $fifthcolor;
             margin-top: -5px;
@@ -101,8 +107,59 @@ body{
             }
         }
     }
+    // edit pro
+    .edit-pro{
+        padding: 7px;
+        text-transform: uppercase;
+        background-color: $fifthcolor;
+        font-size: 12px;
+
+    }
+    // delate model
+    #delete {
+        .modal-content{
+            padding: 0;
+        }
+        .modal-body{
+            padding: 0;
+        }
+        section {
+            margin: 0;
+            border-radius: 5px;
+        }
+        .close{
+            float: left;
+            padding: 0;
+            margin: 0;
+        }
+        .modal-buttons{
+            padding: 20px;
+        }
+        button{
+            padding: 5px 25px;
+            margin: 0px 10px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+        .cancel{
+            color: $forthcolor;
+            font-size: 12px;
+        }
+    }
 }
 
 .ml-ne{
     margin-left: -15px;
+}
+.mr{
+    margin-right: $size-20;
+}
+.fullwidth{
+    width: 100%;
+}
+.newcolor{
+    color:$secColor;
+}
+.padingstyle{
+    padding: $size-12 $size-20;
 }

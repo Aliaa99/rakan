@@ -24,6 +24,11 @@
             height: 360px;
         }
     }
+    #delete{
+        .modal-dialog{
+            width: 30%;
+        }
+    }
     
 }
 @media (min-width:991px) {
