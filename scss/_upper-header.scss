@@ -109,6 +109,17 @@ header {
         letter-spacing: 10px;
         text-transform: uppercase;
         margin-bottom: $size-30;
+
+            -webkit-animation: fadein 3s;
+            /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 3s;
+            /* Firefox < 16 */
+            -ms-animation: fadein 3s;
+            /* Internet Explorer */
+            -o-animation: fadein 3s;
+            /* Opera < 12.1 */
+            animation: fadein 3s;
+
     }
 
 
