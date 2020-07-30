@@ -137,9 +137,9 @@
                             <label class="radio-inline"><input type="radio" name="optradio">message</label>
                         </div>
                         <!-- submit -->
-                        <div class="col-lg-offset-8 col-lg-4 ">
-                            <a href="#">preview</a>
-                            <button class="btn btn-primary mt-20" width="100%" type="button"><small>Submit </small></button>
+                        <div class="col-sm-12 text-right">
+                            <a href="#" class="p-20">preview your Ad</a>
+                            <button class="btn btn-primary " width="100%" type="button"><small>Submit </small></button>
                         </div>
                     </div>
                 </form>

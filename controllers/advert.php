@@ -14,7 +14,7 @@
             </a>
         </div>
         <div class="btn-group fullwidth" role="group" aria-label="...">
-            <button type="button" class="btn btn-default text-center "><a href="#"><i class="fa fa-pencil newcolor" aria-hidden="true"></i><span class="px-10 newcolor">Edit</span></a></button>
+            <button type="button" class="btn btn-default text-center "><a href="place-ad.php"><i class="fa fa-pencil newcolor" aria-hidden="true"></i><span class="px-10 newcolor">Edit</span></a></button>
             <!-- can take class "is-favorite" -->
             <button type="button" class="btn btn-default text-center is-favorite" data-toggle="modal" data-target="#delete"> <i class="fa fa-trash" aria-hidden="true"></i><span class="px-10">Delete</span></button>
         </div>
