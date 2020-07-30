@@ -203,6 +203,8 @@ body{
 }
 .padingstyle{
     padding: $size-12 $size-20;
+    display: flex;
+    justify-content: space-between;
 }
 .p-20{
     padding: 20px;

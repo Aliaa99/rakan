@@ -166,6 +166,13 @@ input.personal-passport {
     margin-top: $size-20;
     border-radius: $size-10;
     border: 1px solid $grayborder;
+    &__no-border {
+        border: none !important
+    }
+    &__rate {
+        border: none !important;
+        background-color: transparent !important;
+    }
     article p {
         color: $grayborder;
         font-size: $size-12;

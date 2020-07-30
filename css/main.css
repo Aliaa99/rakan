@@ -172,6 +172,13 @@ input.personal-passport {
   border-radius: 10px;
   border: 1px solid #c2cacf;
 }
+.global-head__no-border {
+  border: none !important;
+}
+.global-head__rate {
+  border: none !important;
+  background-color: transparent !important;
+}
 .global-head article p {
   color: #c2cacf;
   font-size: 12px;
@@ -595,6 +602,8 @@ body .pro-images::after {
 
 .padingstyle {
   padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .p-20 {
@@ -799,6 +808,19 @@ textarea {
 
 .check-adjust {
   margin-top: 2px !important;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.fa-star, .fa-star-o {
+  color: #ffa41b;
+  font-size: 20px;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
 }
 
 /*** End _body-part. ***/
