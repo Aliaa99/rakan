@@ -49,7 +49,7 @@
         } 
           
         .modal .modal-content { 
-            padding: 70px 70px 70px 70px; 
+            padding: 50px; 
             -webkit-animation-name: modal-animation; 
             -webkit-animation-duration: 0.5s; 
             animation-name: modal-animation; 

@@ -119,7 +119,7 @@ textarea {
     padding: 15px;
     margin: 10px;
     border-radius: 16px;
-    max-width: 75%;
+    max-width: 50%;
     border-bottom-left-radius: 0;
 }
 .chat-p-right {
@@ -130,7 +130,7 @@ textarea {
     padding: 15px;
     margin: 10px;
     border-radius: 16px;
-    max-width: 75%;
+    max-width: 50%;
     border-bottom-right-radius: 0;
 }
 .rtl {
@@ -160,4 +160,7 @@ textarea {
 }
 ::-webkit-scrollbar {
     width: 5px;
+}
+.check-adjust {
+    margin-top: 2px !important;
 }
