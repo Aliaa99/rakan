@@ -70,12 +70,17 @@ ul, li {
   margin: 0;
 }
 
-input, textarea {
+input, textarea, select {
   outline: none;
 }
-input::placeholder, textarea::placeholder {
+input::placeholder, textarea::placeholder, select::placeholder {
   font-family: "Proxima Nova Rg" !important;
   color: #DDD !important;
+}
+
+select.form-control {
+  box-shadow: inset 0 0 0 0 !important;
+  border: 1px solid #f1f3f5 !important;
 }
 
 button {
@@ -326,21 +331,49 @@ header nav .container .navbar-header span.fa-bars {
 header nav .container ul.navbar-nav li.active a {
   color: #cec47f;
 }
-header nav .container ul.navbar-nav li a {
-  font-family: "ITC-r";
+header nav .container ul.navbar-nav li a.main-link {
   color: #FFF;
+}
+header nav .container ul.navbar-nav li a {
+  font-family: "Proxima Nova Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
   color: #cec47f;
 }
 header nav .container ul.navbar-left li a {
   background-color: #cec47f;
-  font-family: "ITC-bd";
+  font-family: "Proxima Nova Rg";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
 header nav .container ul.navbar-left li a:hover {
   color: #404d6f;
+}
+
+.py-15 {
+  padding-bottom: 4px;
+  padding-top: 12px;
+}
+
+.font-regular {
+  font-family: "Proxima Nova Rg" !important;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.mb-3 {
+  margin-bottom: 4px;
+}
+
+.px-adjust {
+  padding-right: 3px;
+  padding-left: 6px;
+}
+
+.color-white {
+  color: white !important;
 }
 
 .tele-academy-paging {
@@ -438,12 +471,11 @@ body .signupform button {
 }
 body .sideprofile img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 body .sideprofile ul {
   border: 1px solid #f6f7f9;
-  margin-top: -5px;
   border-top: 0px;
 }
 body .sideprofile ul li a {
@@ -571,6 +603,8 @@ body .pro-images::after {
 .validation-color {
   color: #d0d5d9;
   font-size: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*** End _body-part. ***/
@@ -622,7 +656,7 @@ a:focus, a:hover {
 
 textarea {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 10px;
   border: 1px solid #f1f3f5;
 }
@@ -641,6 +675,31 @@ textarea {
 .btn-link:hover {
   border: 1px solid;
   text-decoration: none;
+}
+
+.my-0 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.contact-us {
+  transform: translateY(-130px);
+  background-color: white;
+  border-radius: 4px;
+  padding: 40px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: none !important;
+}
+
+.nav-tabs > li > a {
+  margin-right: 0 !important;
+}
+
+.form-horizontal .control-label {
+  text-align: justify !important;
 }
 
 /*** End _body-part. ***/

@@ -65,13 +65,13 @@ body{
     .sideprofile {
         img{
             border-radius: 50%;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
 
         }
         ul{
             border: 1px solid $fifthcolor;
-            margin-top: -5px;
+            // margin-top: -5px;
             border-top: 0px;
             li{
                 a{
@@ -209,4 +209,6 @@ body{
 .validation-color{
     color: $forthcolor;
     font-size: 12px;
+    display: flex;
+    justify-content: space-between;
 }

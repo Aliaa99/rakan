@@ -2,7 +2,7 @@
     include 'controllers/header.php';
 ?>
 <section class="about"></section>
-<div class="container m-h-50">
+<div class="container m-h-50 mb-60">
     <div class="row">
         <div class="col-md-6 col-sm-12 mx-auto">
             <article class="text-center">
