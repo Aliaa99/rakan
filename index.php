@@ -48,11 +48,14 @@
                                 <!-- Modal footer -->
                             <div class="footer"> 
                                 <form>
-                                    <input type="checkbox" value="">
+                                    <div class="checkbox">
+                                        <label><input class="check-adjust" type="checkbox" value="">I agree to all <a href="#">terems&conditions</a></label>
+                                    </div>
+                                    <!-- <input type="checkbox" value="">
                                     <label class="checkbox-inline">
                                         I agree to all
-                                    </label>
-                                    <a href="#">terems&conditions</a>
+                                    </label> -->
+                                    
                                 </form>
                                 <p> 
                                     Already have an account ?

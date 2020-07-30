@@ -172,6 +172,13 @@ input.personal-passport {
   border-radius: 10px;
   border: 1px solid #c2cacf;
 }
+.global-head__no-border {
+  border: none !important;
+}
+.global-head__rate {
+  border: none !important;
+  background-color: transparent !important;
+}
 .global-head article p {
   color: #c2cacf;
   font-size: 12px;
@@ -390,6 +397,7 @@ header nav .container ul.navbar-left li a:hover {
 .tele-academy-paging p {
   color: white;
   font-size: 12px;
+  padding: 40px 20px;
 }
 .tele-academy-paging a {
   color: white;
@@ -594,6 +602,8 @@ body .pro-images::after {
 
 .padingstyle {
   padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .p-20 {
@@ -747,7 +757,7 @@ textarea {
   padding: 15px;
   margin: 10px;
   border-radius: 16px;
-  max-width: 75%;
+  max-width: 50%;
   border-bottom-left-radius: 0;
 }
 
@@ -758,7 +768,7 @@ textarea {
   padding: 15px;
   margin: 10px;
   border-radius: 16px;
-  max-width: 75%;
+  max-width: 50%;
   border-bottom-right-radius: 0;
 }
 
@@ -794,6 +804,23 @@ textarea {
 
 ::-webkit-scrollbar {
   width: 5px;
+}
+
+.check-adjust {
+  margin-top: 2px !important;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.fa-star, .fa-star-o {
+  color: #ffa41b;
+  font-size: 20px;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
 }
 
 /*** End _body-part. ***/
