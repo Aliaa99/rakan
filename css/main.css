@@ -474,6 +474,10 @@ body .sideprofile img {
   width: 80px;
   height: 80px;
 }
+body .sideprofile img.chat {
+  width: 20px;
+  height: 20px;
+}
 body .sideprofile ul {
   border: 1px solid #f6f7f9;
   border-top: 0px;
@@ -700,6 +704,92 @@ textarea {
 
 .form-horizontal .control-label {
   text-align: justify !important;
+}
+
+.time {
+  font-size: 10px;
+  float: right;
+  margin-top: 4px;
+}
+
+.count {
+  font-size: 7px;
+  background-color: #434a51;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 3px 4px 2px;
+  float: right;
+}
+
+.bg-gray {
+  background-color: #f1f3f5;
+}
+
+.style-adjust {
+  margin-bottom: 5px !important;
+  border-bottom: 1px solid #EEE;
+  border-top: 1px solid #EEE;
+  background-color: white !important;
+}
+
+.margin-adjust {
+  margin-left: 35px;
+}
+
+.chat-p-left {
+  text-align: justify;
+  background-color: #f1f3f5;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 16px;
+  max-width: 75%;
+  border-bottom-left-radius: 0;
+}
+
+.chat-p-right {
+  direction: rtl;
+  background-color: #cec47f;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 16px;
+  max-width: 75%;
+  border-bottom-right-radius: 0;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.h-60 {
+  height: 65.25vh;
+  overflow: overlay;
+}
+
+.chat-size {
+  position: relative;
+  height: 65.25vh;
+}
+.chat-size .input-group {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.chat-area {
+  max-height: 60vh;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404d6f;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
 }
 
 /*** End _body-part. ***/
