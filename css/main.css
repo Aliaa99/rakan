@@ -604,6 +604,10 @@ body .pro-images::after {
   margin-bottom: 20px;
 }
 
+.none {
+  display: none;
+}
+
 .validation-color {
   color: #d0d5d9;
   font-size: 12px;

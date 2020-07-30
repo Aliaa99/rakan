@@ -115,21 +115,36 @@
                                     <p>Change your change phone number</p>
                                 </article>
                             </section>
-                                <!-- form -->
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-3" >Current Password</label>
-                                    <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="current password" placeholder="current password" name="current password">
-                                    </div>
+                                <!-- forms -->
+                                    <!-- form1 -->
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3" >Current Password</label>
+                                            <div class="col-sm-6">
+                                                <input type="password" class="form-control" id="current password" placeholder="current password" name="current password">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">        
+                                            <div class="col-sm-offset-6 col-sm-4">
+                                                <button type="submit" class="btn btn-primary change-form">Confirm</button>
+                                            </div>
+                                        </div>
+                                    </form> 
+                                    <!-- form 2 -->
+                                    <form class="form-horizontal none showform" >
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3" >Phone Number</label>
+                                            <div class="col-sm-6">
+                                                <input type="number" class="form-control" id="Phone-Number" placeholder="Phone Number" name="Phone-Number">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">        
+                                            <div class="col-sm-offset-6 col-sm-4">
+                                                <button type="submit" class="btn btn-primary ">Update</button>
+                                            </div>
+                                        </div>
+                                    </form>   
                                 </div>
-                                <div class="form-group">        
-                                    <div class="col-sm-offset-6 col-sm-4">
-                                        <button type="submit" class="btn btn-primary">Confirm</button>
-                                    </div>
-                                </div>
-                            </form>    
-                        </div>
                             <!-- change-email -->
                         <div id="change-email" class="tab-pane fade">
                             <section class="global-head">
@@ -138,20 +153,35 @@
                                     <p>Change your change email</p>
                                 </article>
                             </section>
-                                <!-- form -->
+                                <!-- form1 -->
                             <form class="form-horizontal">
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >Current Password</label>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="current password" placeholder="current password" name="current password">
+                                        <input type="password" class="form-control" id="current-password" placeholder="current password" name="current password">
                                     </div>
                                 </div>
                                 <div class="form-group">        
                                     <div class="col-sm-offset-6 col-sm-4">
-                                        <button type="submit" class="btn btn-primary ">Confirm</button>
+                                        <button type="submit" class="btn btn-primary change-form">Confirm</button>
+                                    </div>
+                                </div>
+                            </form> 
+                                            <!-- form2 -->
+                            <form class="form-horizontal none showform">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" >New Email</label>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control" id="" placeholder="current password" name="">
+                                    </div>
+                                </div>
+                                <div class="form-group">        
+                                    <div class="col-sm-offset-6 col-sm-4">
+                                        <button type="submit" class="btn btn-primary " >Update</button>
                                     </div>
                                 </div>
                             </form>    
+                   
                         </div>
                     </div>
                 </div>

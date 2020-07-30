@@ -90,7 +90,7 @@
                     </section>
                 </div>
                 <div class="col-md-2 text-center">
-                    <a href="new-ad.php">
+                    <a href="place-ad.php">
                         <button class="btn btn-primary mt-20" width="100%" type="button"><small>New Ad <i class="fa fa-plus px-5"></i></small></button>
                     </a>
                 </div>
