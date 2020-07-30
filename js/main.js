@@ -28,7 +28,6 @@ $(function() {
         });
     });
 
-    
 
 
     // $("header ul.navbar-nav li").click(function (ee){
@@ -63,3 +62,45 @@ $(function() {
     // $(".nicescroll-box").niceScroll(".wrap",{cursorcolor:"#15222e",cursorwidth:"8px",background:"rgba(97,97,97,0.5)",cursorborder:"1px solid #afafaf",autohidemode:'leave'});
 
 });
+
+// function PreviewImage() {
+//     var oFReader = new FileReader();
+//     oFReader.readAsDataURL(document.getElementById("uploadImage").files[0]);
+
+//     oFReader.onload = function (oFREvent) {
+//         document.getElementById("uploadPreview").src = oFREvent.target.result;
+//     };
+// };
+function previewImages() {
+
+    var preview = document.querySelector('#preview');
+
+    if (this.files) {
+        [].forEach.call(this.files, readAndPreview);
+    }
+
+    function readAndPreview(file) {
+
+        // Make sure `file.name` matches our extensions criteria
+        if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
+            return alert(file.name + " is not an image");
+        } // else...
+
+        var reader = new FileReader();
+
+        reader.addEventListener("load", function () {
+            var image = new Image();
+            image.height = 100;
+            image.title = file.name;
+            image.src = this.result;
+            preview.appendChild(image);
+        });
+
+        reader.readAsDataURL(file);
+
+    }
+
+}
+
+document.querySelector('#file-input').addEventListener("change", previewImages);
+
