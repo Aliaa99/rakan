@@ -4,7 +4,24 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                asda
+                <!-- slider -->
+                    <div class="slider-for">
+                        <img class="img-responsive" src="images/watch.png" alt=""> 
+                        <img class="img-responsive" src="images/watch.png" alt=""> 
+                        <img class="img-responsive" src="images/watch.png" alt="">
+                    </div>
+                    <div class="slider-nav">
+                        <div class="item ">
+                            <img class="img-responsive" src="images/watch.png" alt="">
+                        </div>
+                        <div class="item ">
+                            <img class="img-responsive" src="images/watch.png" alt="">
+                            </div>
+                        <div class="item ">
+                            <img class="img-responsive" src="images/watch.png" alt="">
+                        </div>
+                    </div>
+
             </div>
             <div class="col-md-7">
                 <section class="product-card">
@@ -55,3 +72,5 @@
 <?php
     include 'controllers/footer.php';
 ?>
+
+

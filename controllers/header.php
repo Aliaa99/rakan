@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="css/bootstrap-e.min.css" />
         <link rel="stylesheet" href="fonts/font/stylesheet.css" />
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
         <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
         <!-- Owl carousel -->
@@ -154,6 +156,12 @@
                             <li><a href="advertisment.php">
                                 <i class="icon-ads px-5"></i>                
                                  My Advertisment</a></li>
+                            <li><a href="commision.php">
+                                <i class="icon-creditcard px-5"></i>                
+                                 Commision</a></li>
+                            <li class="text-center"><a href="#" class="is-favorite">
+                                 LOGOUT</a></li>
+
                         </ul>
                     </div>
                 </ul>
