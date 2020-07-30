@@ -84,19 +84,19 @@
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >Current password</label>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="current password" placeholder="current password" name="current password">
+                                        <input type="password" class="form-control"  placeholder="current password" name="current password">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >New Password</label>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="New password" placeholder="New password" name="New password">
+                                        <input type="password" class="form-control" placeholder="New password" name="New password">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >New Password</label>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="New password" placeholder="New password" name="New password">
+                                        <input type="password" class="form-control"  placeholder="New password" name="New password">
                                     </div>
                                 </div>
 
@@ -117,16 +117,16 @@
                             </section>
                                 <!-- forms -->
                                     <!-- form1 -->
-                                    <form class="form-horizontal">
+                                    <form class="form-horizontal deletform">
                                         <div class="form-group">
                                             <label class="control-label col-sm-3" >Current Password</label>
                                             <div class="col-sm-6">
-                                                <input type="password" class="form-control" id="current password" placeholder="current password" name="current password">
+                                                <input type="password" class="form-control"  placeholder="current password" >
                                             </div>
                                         </div>
                                         <div class="form-group">        
                                             <div class="col-sm-offset-6 col-sm-4">
-                                                <button type="submit" class="btn btn-primary change-form">Confirm</button>
+                                                <button type="button" class="btn btn-primary changeform">Confirm</button>
                                             </div>
                                         </div>
                                     </form> 
@@ -135,7 +135,7 @@
                                         <div class="form-group">
                                             <label class="control-label col-sm-3" >Phone Number</label>
                                             <div class="col-sm-6">
-                                                <input type="number" class="form-control" id="Phone-Number" placeholder="Phone Number" name="Phone-Number">
+                                                <input type="number" class="form-control"  placeholder="Phone Number" >
                                             </div>
                                         </div>
                                         <div class="form-group">        
@@ -154,16 +154,16 @@
                                 </article>
                             </section>
                                 <!-- form1 -->
-                            <form class="form-horizontal">
+                            <form class="form-horizontal deletform">
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >Current Password</label>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control" id="current-password" placeholder="current password" name="current password">
+                                        <input type="password" class="form-control"  placeholder="current password" >
                                     </div>
                                 </div>
                                 <div class="form-group">        
                                     <div class="col-sm-offset-6 col-sm-4">
-                                        <button type="submit" class="btn btn-primary change-form">Confirm</button>
+                                        <button type="button" class="btn btn-primary changeform">Confirm</button>
                                     </div>
                                 </div>
                             </form> 
@@ -172,7 +172,7 @@
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" >New Email</label>
                                     <div class="col-sm-6">
-                                        <input type="email" class="form-control" id="" placeholder="current password" name="">
+                                        <input type="email" class="form-control"  placeholder="New Email" >
                                     </div>
                                 </div>
                                 <div class="form-group">        

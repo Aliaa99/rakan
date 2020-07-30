@@ -5,12 +5,12 @@ $(function() {
         $('.pillsstyle li').toggleClass("active");
     
     });
-    $('.change-form').click(function () {
-        $(this).parent().parent().parent().addClass("none");
-        $('.showform').removeClass('none');
-        // setTimeout(1000);
+
+    $('.changeform').click(function () {
+        $('.deletform ,.showform').toggleClass('none');
 
     });
+
 
     $(document).ready(function () {
         $('#emailpassword').on('submit', function (e) {
