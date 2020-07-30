@@ -101,7 +101,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 col-sm-3 col-xs-4">
-                        <select class="form-control" id="">
+                        <select class="form-control borderless" id="">
                             <option value="" >Arabic</option>
                             <option value="" selected>English </option>
                         </select>
@@ -116,7 +116,9 @@
                         </div> -->
                     </div>
                     <div class="col-md-8 col-sm-6 col-xs-8 text-center">
-                        <img src="images/logo.png" width="120px" alt="">
+                        <a href="index.php">
+                            <img src="images/logo.png" width="120px" alt="">
+                        </a>
                     </div>
                 </div>
             </div>

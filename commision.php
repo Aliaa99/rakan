@@ -1,7 +1,7 @@
 <?php
     include 'controllers/header.php';
 ?>
-    <div class="container">
+    <div class="container  m-h-50 mb-60">
         <div class="row">
             <div class="col-md-3 col-sm-4">
                 <div class="sideprofile">
@@ -14,7 +14,7 @@
                         <!-- tabs -->
                      <ul class="nav nav-tabs nav-stacked">
                         <li class="active"><a data-toggle="tab" href="#commision">Commision</a></li>
-                        <li><a data-toggle="tab" href="#bank-accounts">bank accounts</a></li>
+                        <li><a data-toggle="tab" href="#bank-accounts">Bank Accounts</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +67,8 @@
                                 </article>
                             </section>
                                 <!-- table -->
-                            <table class="table">
+                                <h2>Still not complete from design side</h2>
+                            <!-- <table class="table">
                                 <tbody>
                                     <tr>
                                         <td>
@@ -82,7 +83,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> -->
                         </div>
                     </div>
                 </div>

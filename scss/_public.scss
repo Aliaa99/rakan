@@ -170,7 +170,41 @@ textarea {
 .fa-star, .fa-star-o {
     color: #ffa41b;
     font-size: 20px;
+    cursor: pointer;
 }
 .pt-0 {
     padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+
+.h-50 {
+    // height: 150px !important;
+    // width: 150px !important;
+}
+.slick-list {
+    // padding: 0 !important;
+    // max-height: 200px !important;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+}
+.slick-track {
+    // max-width: 120px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+.slick-slide {
+    // max-width: 150px !important;
+    margin: 20px 0;
+    img {
+        margin: auto !important;
+        max-height: 100% !important;
+    }
+}
+.slider-nav .item {
+    height: 100px;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

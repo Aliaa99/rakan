@@ -138,7 +138,7 @@
                         </div>
                         <!-- submit -->
                         <div class="col-sm-12 text-right">
-                            <a href="#" class="p-20">preview your Ad</a>
+                            <a href="product-details.php" class="p-20">Preview Your Ad</a>
                             <button class="btn btn-primary " width="100%" type="button"><small>Submit </small></button>
                         </div>
                     </div>
