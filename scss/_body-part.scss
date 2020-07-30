@@ -267,3 +267,40 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+input[type="radio"]{
+    // opacity: 0;
+}
+input[type="radio"]:checked:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 13px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #cec47f;
+    z-index: 0;
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked:before {
+    content: "\f00c";
+    position: absolute;
+    left: 0px;
+    font-weight: 100;
+    bottom: 0px;
+    background-color: #cec47f;
+    color: #ffffff;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 2px;
+    z-index: 0;
+    top: -2px;
+    bottom: 0px;
+    right: 0px;
+    font-family: FontAwesome;
+
+}
+
