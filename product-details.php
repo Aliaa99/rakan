@@ -5,22 +5,40 @@
         <div class="row">
             <div class="col-md-5">
                 <!-- slider -->
-                    <div class="slider-for">
-                        <img class="img-responsive" src="images/watch.png" alt=""> 
-                        <img class="img-responsive" src="images/watch.png" alt=""> 
+                <!-- to be displayed correctly both section must have same image src 
+                the loop will be done twice
+                -->
+                <div class="slider-for">
+                    <!-- Here -->
+                    <section>
+                        <img class="img-responsive h-50" src="images/watch.png" alt=""> 
+                    </section>
+                    <section>
+                        <img class="img-responsive h-50" src="images/002.png" alt=""> 
+                    </section>
+                    <section>
+                        <img class="img-responsive h-50" src="images/003.png" alt="">
+                    </section>
+                    <section>
+                        <img class="img-responsive h-50" src="images/003.png" alt="">
+                    </section>
+
+                </div>
+                <div class="slider-nav">
+                    <!-- and Here -->
+                    <div class="item ">
                         <img class="img-responsive" src="images/watch.png" alt="">
                     </div>
-                    <div class="slider-nav">
-                        <div class="item ">
-                            <img class="img-responsive" src="images/watch.png" alt="">
+                    <div class="item ">
+                        <img class="img-responsive" src="images/002.png" alt="">
                         </div>
-                        <div class="item ">
-                            <img class="img-responsive" src="images/watch.png" alt="">
-                            </div>
-                        <div class="item ">
-                            <img class="img-responsive" src="images/watch.png" alt="">
-                        </div>
+                    <div class="item ">
+                        <img class="img-responsive" src="images/003.png" alt="">
                     </div>
+                    <div class="item ">
+                        <img class="img-responsive" src="images/003.png" alt="">
+                    </div>
+                </div>
 
             </div>
             <div class="col-md-7">

@@ -38,59 +38,7 @@
         <div class="notifications-card mt-20">
             <div class="row">
                 <div class="col-sm-1 text-center">
-                    <img src="images/007.png" width="25px" height="25px" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <p><a href="#" class="color-gray"><strong>Saad</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre rolex</a></span></p>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">22:10 AM</span>
-                </div>
-            </div>
-        </div>
-        <div class="notifications-card mt-20">
-            <div class="row">
-                <div class="col-sm-1 text-center">
-                    <img src="images/007.png" width="25px" height="25px" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <p><a href="#" class="color-gray"><strong>Saad</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre rolex</a></span></p>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">22:10 AM</span>
-                </div>
-            </div>
-        </div>
-        <div class="notifications-card mt-20">
-            <div class="row">
-                <div class="col-sm-1 text-center">
-                    <img src="images/007.png" width="25px" height="25px" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <p><a href="#" class="color-gray"><strong>Saad</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre rolex</a></span></p>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">22:10 AM</span>
-                </div>
-            </div>
-        </div>
-        <div class="notifications-card mt-20">
-            <div class="row">
-                <div class="col-sm-1 text-center">
-                    <img src="images/007.png" width="25px" height="25px" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <p><a href="#" class="color-gray"><strong>Saad</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre rolex</a></span></p>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">22:10 AM</span>
-                </div>
-            </div>
-        </div>
-        <div class="notifications-card mt-20">
-            <div class="row">
-                <div class="col-sm-1 text-center">
-                    <img src="images/007.png" width="25px" height="25px" alt="">
+                    <img src="images/002.png" width="25px" height="25px" alt="">
                 </div>
                 <div class="col-sm-9">
                     <p><a href="#" class="color-gray"><strong>Saad</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre rolex</a></span></p>

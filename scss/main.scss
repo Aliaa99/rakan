@@ -249,7 +249,7 @@ input.personal-passport {
     margin-top: 5px;
 }
 .m-h-50 {
-    min-height: 50vh;
+    min-height: 60vh;
 }
 .mx-auto {
     margin-left: auto;
@@ -313,4 +313,7 @@ input, .input-group-btn button {
 // .grid-item--width2 { width: 40%; }
 .grid {
     width: 100%;
+}
+select.form-control.borderless {
+    border: none !important;
 }

@@ -6,7 +6,7 @@
         <div class="tele-academy-paging">
             <div class="container text-center">
                 <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
-                <h2>New Member </h2>
+                <h2>New Member ?</h2>
                 <a href="#signupModal" data-toggle="modal" class="newmemb">new member</a>
                 <p>I Already have an account</p>
                 <a href="#signupModal" data-toggle="modal"> Signin</a>
@@ -153,10 +153,13 @@
 
 
 
+        <!-- Jquery js -->
+        <script src="js/jquery-3.2.1.js"></script>
+        <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
 
-
-
-
-<?php
-    include 'controllers/footer.php';
-?>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
