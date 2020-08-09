@@ -13,7 +13,7 @@
                             <p>Suadiarabia</p>
                         </article>
                     </section>
-                    <div class="text-center edit-pro">
+                    <div class="text-center edit-pro edit-pro--padding">
                         <a href="my-profile.php"><strong>Edit Profile</strong></a>
                     </div>
                         <!-- detailes -->

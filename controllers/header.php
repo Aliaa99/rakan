@@ -141,9 +141,9 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>Home</a></li>
-                    <li><a href="favorites.php" class="main-link"><i class="fa fa-heart px-5"></i>Favorites</a></li>
-                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell px-5"></i>Notifications</a></li>
-                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope px-5"></i>Messages</a></li>
+                    <li><a href="favorites.php" class="main-link"><i class="icon-heart px-5"></i>Favorites</a></li>
+                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell-o px-5"></i>Notifications</a><span class="red-dot"></span></li>
+                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope-o px-5"></i>Messages</a><span class="red-dot"></span></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

@@ -2,7 +2,7 @@
     include 'controllers/header.php';
 ?>
 <div class="container  m-h-50 mb-60">
-    <section class="global-head">
+    <section class="global-head global-head--no-transform">
         <article>
             <h4><strong>My Messages</strong></h4>
             <p>Here you will find all the messages you want</p>
