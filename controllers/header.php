@@ -19,8 +19,8 @@
 
         <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
         <!-- Owl carousel -->
-        <!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"> -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
         <!-- Lightbox -->
         <link rel="stylesheet" href="css/lightbox.css" />
         <!-- Styling File -->
@@ -90,10 +90,19 @@
 
         <div class="upnav">
             <div class="container">
-              <p> <span> - </span> Welcome and hapy day <span> - </span></p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
+                    </div>
+                    <div class="item">
+                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
+                    </div>
+                    <div class="item">
+                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
+                    </div>
+                </div>
             </div>
         </div>
-
 
                 <!--  change language  -->
 

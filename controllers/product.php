@@ -16,7 +16,7 @@
         <div class="btn-group" role="group" aria-label="...">
             <button type="button" class="btn btn-default text-center"><a href="messages.php"><i class="icon-message_square"></i><span class="px-10">Send Message</span></a></button>
             <!-- can take class "is-favorite" -->
-            <button type="button" class="btn btn-default text-center is-favorite"><i class="icon-heart"></i><span class="px-10">Favorite</span></button>
+            <button type="button" class="btn btn-default text-center change-color"><i class="fa fa-heart-o"></i><span class="px-10">Favorite</span></button>
             <button type="button" class="btn btn-default text-center"><i class="icon-whatsapp"></i><span class="px-10">Send Whatsapp</span></button>
         </div>
     </div>

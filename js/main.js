@@ -72,7 +72,25 @@ $(function() {
     $(document).ready(function() {
 
     });
-
+    $('.owl-carousel').owlCarousel({
+        rtl:true,
+        nav:true,
+        navText: [
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>'
+        ],
+        dots:false,
+        margin:25,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    });
+    $('.change-color').click(function (){
+        $(this).toggleClass('is-favorite');
+        $(this).children(":first").toggleClass('fa-heart-o').toggleClass('fa-heart')
+    });
     // $("header ul.navbar-nav li").click(function (ee){
     //     // ee.preventDefault();
     //     $(this).addClass('active').siblings().removeClass('active');

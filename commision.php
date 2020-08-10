@@ -51,6 +51,14 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <div class="col-sm-3">
+                                        <label for="choose-photo" class="control-label " >Photo</label>
+                                    </div>
+                                    <div class="col-sm-9 mb-20">
+                                        <input class="photo"  type="file" >
+                                    </div>
+                                </div>
                                 <div class="form-group">        
                                     <div class="col-sm-offset-6 col-sm-4">
                                         <button type="submit" class="btn btn-primary">Send</button>

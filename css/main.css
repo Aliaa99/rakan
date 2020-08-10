@@ -322,11 +322,36 @@ header .upnav {
   background-color: #404d6f;
   color: white;
   text-align: center;
-  padding: 5px 0px;
+  padding: 5px 0px 0;
   font-size: 12px;
+}
+header .upnav p {
+  padding-top: 2px;
 }
 header .upnav span {
   padding: 0px 20px;
+}
+header .owl-prev {
+  position: absolute;
+  right: 25%;
+  top: 0;
+  background-color: transparent !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+header .owl-next {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  background-color: transparent !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 header .language-area {
   text-align: left;
