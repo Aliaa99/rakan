@@ -38,19 +38,19 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 * {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 a {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   line-height: 1.7;
   margin: 0px;
   -webkit-transition: all 0.4s;
@@ -75,7 +75,7 @@ input, textarea, select {
   outline: none;
 }
 input::placeholder, textarea::placeholder, select::placeholder {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
   color: #DDD !important;
 }
 
@@ -87,7 +87,7 @@ select.form-control {
 button {
   outline: none !important;
   border: none;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   background: transparent;
 }
 button:hover {
@@ -228,6 +228,7 @@ input.personal-passport {
 .product-card .rate {
   color: #ffa41b;
   font-size: 12px;
+  display: inline-block;
 }
 .product-card .rate i {
   font-size: 16px;
@@ -283,7 +284,7 @@ input.personal-passport {
 }
 
 .about {
-  background: url(../images/bg.png);
+  background: url(../../images/bg.png);
   background-position: center;
   height: 60vh;
   width: 100%;
@@ -384,14 +385,14 @@ header nav .container ul.navbar-nav li a.main-link {
   color: #FFF;
 }
 header nav .container ul.navbar-nav li a {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
   color: #cec47f;
 }
 header nav .container ul.navbar-left li a {
   background-color: #cec47f;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
@@ -405,7 +406,7 @@ header nav .container ul.navbar-left li a:hover {
 }
 
 .font-regular {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
 }
 
 .rounded {
@@ -846,7 +847,8 @@ a:focus, a:hover {
 
 .red-dot {
   position: absolute;
-  left: 28px;
+  right: 28px;
+  left: 0;
   top: 15px;
   width: 7px;
   height: 7px;
@@ -905,7 +907,7 @@ textarea {
 
 .time {
   font-size: 10px;
-  float: right;
+  float: left;
   margin-top: 4px;
 }
 
@@ -916,7 +918,11 @@ textarea {
   text-align: center;
   color: white;
   padding: 3px 4px 2px;
-  float: right;
+  float: left;
+}
+
+.text-right {
+  text-align: left !important;
 }
 
 .bg-gray {
@@ -940,6 +946,7 @@ textarea {
   padding: 15px;
   margin: 10px;
   border-radius: 16px;
+  margin-right: auto;
   max-width: 50%;
   border-bottom-left-radius: 0;
 }
@@ -1122,7 +1129,7 @@ hr {
   font-size: 12px;
 }
 .lower-footer .form-control::placeholder {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
   font-size: 12px;
 }
 
@@ -1141,6 +1148,14 @@ hr {
 select.form-control.borderless {
   border: none !important;
   max-width: 95px;
+}
+
+.navbar-right {
+  float: left !important;
+}
+
+.slick-slider, .slider-nav {
+  direction: ltr !important;
 }
 
 .comment {

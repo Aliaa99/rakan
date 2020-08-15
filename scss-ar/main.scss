@@ -55,10 +55,10 @@ body {
     font-family: $baseFont;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Tajawal Rg';
 }
 a {
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Tajawal Rg';
 	line-height: 1.7;
 	margin: 0px;
 	-webkit-transition: all 0.4s;
@@ -223,6 +223,7 @@ input.personal-passport {
     .rate {
         color: $gold;
         font-size: $size-12;
+        display: inline-block;
         i {
             font-size: $size-16;
         }
@@ -267,7 +268,7 @@ input.personal-passport {
     float: initial !important;
 }
 .about {
-    background: url(../images/bg.png);
+    background: url(../../images/bg.png);
     background-position: center;
     height: 60vh;
     width: 100%;
@@ -330,6 +331,12 @@ input, .input-group-btn button {
 select.form-control.borderless {
     border: none !important;
     max-width: 95px;
+}
+.navbar-right {
+    float: left !important;
+}
+.slick-slider, .slider-nav {
+    direction: ltr !important;
 }
 .comment {
     border: 1px solid #fff;

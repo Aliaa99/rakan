@@ -160,6 +160,8 @@
 
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
         <script src="js/main.js"></script>
     </body>
 </html>

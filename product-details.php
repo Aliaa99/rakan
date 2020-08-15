@@ -84,6 +84,23 @@
                         <button class="btn btn-link mt-20" type="submit"><small>Add Comment</small></button>
                     </form>
                 </div>
+                <div class="col-xs-12">
+                    <article class="mt-20 comment">
+                        <a href="">Ahmed Saad - </a>
+                        <span>9:00 AM</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
+                    </article>
+                    <article class="mt-20 comment">
+                        <a href="">Ahmed Saad - </a>
+                        <span>9:00 AM</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
+                    </article>
+                    <article class="mt-20 comment">
+                        <a href="">Ahmed Saad - </a>
+                        <span>9:00 AM</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
+                    </article>
+                </div>
             </div>
         </div>
     </section>

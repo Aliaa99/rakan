@@ -12,18 +12,23 @@
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <!-- Bootstrap Css -->
         <link rel="stylesheet" href="css/bootstrap-e.min.css" />
+        <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
+        <!-- en - font -->
         <link rel="stylesheet" href="fonts/font/stylesheet.css" />
+        <!-- ar - font -->
+        <!-- <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" /> -->
+
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-
-        <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
         <!-- Owl carousel -->
         <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
         <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
         <!-- Lightbox -->
         <link rel="stylesheet" href="css/lightbox.css" />
         <!-- Styling File -->
+        <!-- <link rel="stylesheet" href="css/main-ar/main.css" /> -->
+
         <link rel="stylesheet" href="css/main.css" />
 
 
@@ -149,7 +154,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>Home</a></li>
+                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>الرئيسيه</a></li>
                     <li><a href="favorites.php" class="main-link"><i class="icon-heart px-5"></i>Favorites</a></li>
                     <li><a href="notifications.php" class="main-link"><i class="fa fa-bell-o px-5"></i>Notifications</a><span class="red-dot"></span></li>
                     <li><a href="messages.php" class="main-link"><i class="fa fa-envelope-o px-5"></i>Messages</a><span class="red-dot"></span></li>

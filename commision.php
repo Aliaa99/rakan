@@ -74,24 +74,24 @@
                                     <p>Bank Account that use to send money by website</p>
                                 </article>
                             </section>
-                                <!-- table -->
-                                <h2>Still not complete from design side</h2>
-                            <!-- <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h5>SAAB Bank</h5>
-                                            <p>ACC Number <span>25478965</span></p>
-                                        </td>
-                                        <td>
-                                            <a href="#" class="edit"><i class="fa fa-pencil"></i>Edit Account</a>
-                                        </td>
-                                        <td>
-                                            <a href="#"> <i class="fa fa-trash"></i>Delete</a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table> -->
+                            <section class="place-ad" style="margin-bottom: 0;padding: 25px">
+                                <h4><strong>Saib Bank</strong></h4>
+                                <ul>
+                                    <li><span class="color-gray">Owner Name : </span><span>Ahmed Khaled</span></li>
+                                    <li><span class="color-gray">Bank Name : </span><span>Saib Bank</span></li>
+                                    <li><span class="color-gray">Account Number : </span><span>23423423423423</span></li>
+                                    <li><span class="color-gray">IBAN Number : </span><span>342342342342</span></li>
+                                </ul>
+                            </section>
+                            <section class="place-ad" style="margin-bottom: 0;padding: 25px">
+                                <h4><strong>Saib Bank</strong></h4>
+                                <ul>
+                                    <li><span class="color-gray">Owner Name : </span><span>Ahmed Khaled</span></li>
+                                    <li><span class="color-gray">Bank Name : </span><span>Saib Bank</span></li>
+                                    <li><span class="color-gray">Account Number : </span><span>23423423423423</span></li>
+                                    <li><span class="color-gray">IBAN Number : </span><span>342342342342</span></li>
+                                </ul>
+                            </section>
                         </div>
                     </div>
                 </div>
