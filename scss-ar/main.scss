@@ -161,14 +161,30 @@ input.personal-passport {
     margin: 6em 0;
 }
 .global-head {
-    background-color: $graybg;
+    background: url(../../images/bg.png);
     padding: $size-5  $size-20 $size-10;
+    text-align: center;
     margin-top: $size-10;
-    border-radius: $size-10;
-    border: 1px solid $grayborder;
     transform: translateY($size-10);
     z-index: 9;
     position: relative;
+    color: white;
+    padding: 40px 0 0 0;
+    .breadcrumb {
+        max-width: 200px;
+        margin: auto;
+        background-color: #909594;
+        .breadcrumb-item.active {
+            color: white
+        }
+    }
+    h4 {
+        padding-bottom: 40px;
+        strong {
+            border-bottom: 3px solid white;
+            padding-bottom: 8px;
+        }
+    }
     &__no-border {
         border: none !important
     }
@@ -178,10 +194,6 @@ input.personal-passport {
     }
     &--no-transform {
         transform: translateY(0);
-    }
-    article p {
-        color: $grayborder;
-        font-size: $size-12;
     }
 }
 .product-card {

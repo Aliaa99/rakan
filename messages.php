@@ -1,13 +1,19 @@
 <?php
     include 'controllers/header.php';
 ?>
+<section class="global-head global-head--no-transform">
+    <article>
+        <h4><strong>الرسائل</strong></h4>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسيه</a></li>
+                <li class="breadcrumb-item active" aria-current="page">الرسائل</li>
+            </ol>
+    </nav>
+    </article>
+</section>
 <div class="container  m-h-50 mb-60">
-    <section class="global-head global-head--no-transform">
-        <article>
-            <h4><strong>My Messages</strong></h4>
-            <p>Here you will find all the messages you want</p>
-        </article>
-    </section>
+    
     <div class="row">
         <div class="col-md-3 col-sm-4 px-0">
             <div class="sideprofile">

@@ -167,14 +167,30 @@ input.personal-passport {
 }
 
 .global-head {
-  background-color: #f1f3f5;
+  background: url(../../images/bg.png);
   padding: 5px 20px 10px;
+  text-align: center;
   margin-top: 10px;
-  border-radius: 10px;
-  border: 1px solid #c2cacf;
   transform: translateY(10px);
   z-index: 9;
   position: relative;
+  color: white;
+  padding: 40px 0 0 0;
+}
+.global-head .breadcrumb {
+  max-width: 200px;
+  margin: auto;
+  background-color: #909594;
+}
+.global-head .breadcrumb .breadcrumb-item.active {
+  color: white;
+}
+.global-head h4 {
+  padding-bottom: 40px;
+}
+.global-head h4 strong {
+  border-bottom: 3px solid white;
+  padding-bottom: 8px;
 }
 .global-head__no-border {
   border: none !important;
@@ -185,10 +201,6 @@ input.personal-passport {
 }
 .global-head--no-transform {
   transform: translateY(0);
-}
-.global-head article p {
-  color: #c2cacf;
-  font-size: 12px;
 }
 
 .product-card {
@@ -320,7 +332,7 @@ input:focus, .input-group-btn button:focus {
 /*** End Global Properties ***/
 /*** Start Upper-Header ***/
 header .upnav {
-  background-color: #404d6f;
+  background-color: #20AB96;
   color: white;
   text-align: center;
   padding: 5px 0px 0;
@@ -358,6 +370,9 @@ header .language-area {
   text-align: left;
   padding: 12px 0px;
   background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 header .language-area .container {
   padding: 0;
@@ -366,9 +381,12 @@ header .language-area .container span {
   margin: 0px 5px;
 }
 header nav {
-  background-color: #404d6f;
   border-radius: 0px !important;
   margin-bottom: 0 !important;
+}
+header nav .container {
+  background-color: #20AB96;
+  border-radius: 4px;
 }
 header nav .container .navbar-header a.navbar-brand {
   height: 120px;
@@ -397,7 +415,7 @@ header nav .container ul.navbar-left li a {
   border-radius: 4px;
 }
 header nav .container ul.navbar-left li a:hover {
-  color: #404d6f;
+  color: #20AB96;
 }
 
 .py-15 {
@@ -988,7 +1006,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #404d6f;
+  background: #20AB96;
   border-radius: 20px;
 }
 

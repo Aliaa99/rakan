@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="css/font-awesome.min.css" />
         <!-- Bootstrap Css -->
         <link rel="stylesheet" href="css/bootstrap-e.min.css" />
-        <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
+        <link rel="stylesheet" href="css/bootstrap-a.min.css" />
         <!-- en - font -->
-        <link rel="stylesheet" href="fonts/font/stylesheet.css" />
+        <!-- <link rel="stylesheet" href="fonts/font/stylesheet.css" /> -->
         <!-- ar - font -->
-        <!-- <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" /> -->
+        <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" />
 
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -27,9 +27,9 @@
         <!-- Lightbox -->
         <link rel="stylesheet" href="css/lightbox.css" />
         <!-- Styling File -->
-        <!-- <link rel="stylesheet" href="css/main-ar/main.css" /> -->
+        <link rel="stylesheet" href="css/main-ar/main.css" />
 
-        <link rel="stylesheet" href="css/main.css" />
+        <!-- <link rel="stylesheet" href="css/main.css" /> -->
 
 
 
@@ -91,48 +91,21 @@
 
  <header>
 
-        <!-- up nav 1-->
-
-        <div class="upnav">
-            <div class="container">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
-                    </div>
-                    <div class="item">
-                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
-                    </div>
-                    <div class="item">
-                        <p> <span> - </span> Welcome and hapy day <span> - </span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-                <!--  change language  -->
-
         <div class="language-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-sm-3 col-xs-4">
+                    
+                    <div class="col-md-10 col-sm-6 col-xs-8 text-center">
+                        <a href="index.php">
+                            <img src="images/logo.png" width="120px" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 select-lang">
                         <select class="form-control borderless" id="">
                             <option value="" >Arabic</option>
                             <option value="" selected>English </option>
                         </select>
-                        <!-- <div class="dropdown">
-                            <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span>اللغة العربية
-                            <span> <img src="images/002.png"> </span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">ُاللغة العربية</a></li>
-                                <li><a href="#">ُُُالانجليزيه</a></li>
-                            </ul>
-                        </div> -->
-                    </div>
-                    <div class="col-md-8 col-sm-6 col-xs-8 text-center">
-                        <a href="index.php">
-                            <img src="images/logo.png" width="120px" alt="">
-                        </a>
+                       
                     </div>
                 </div>
             </div>
@@ -154,16 +127,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>الرئيسيه</a></li>
-                    <li><a href="favorites.php" class="main-link"><i class="icon-heart px-5"></i>Favorites</a></li>
-                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell-o px-5"></i>Notifications</a><span class="red-dot"></span></li>
-                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope-o px-5"></i>Messages</a><span class="red-dot"></span></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
                         <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
-                          <span class="caret color-white"></span><span class="color-white font-regular px-adjust">Ahmed Mahmoud</span><span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span>
+                          <span class="caret color-white"></span><span class="color-white font-regular px-adjust">ابراهيم شمس</span><span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span>
                         </button>
                         <ul class="dropdown-menu">
                             <li><a href="my-profile.php">
@@ -181,6 +147,14 @@
                         </ul>
                     </div>
                 </ul>
+                <ul class="nav navbar-nav  navbar-right">
+                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>الرئيسيه</a></li>
+                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope-o px-5"></i>الرسائل</a><span class="red-dot"></span></li>
+                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell-o px-5"></i>الإشعارات</a><span class="red-dot"></span></li>
+                    <li><a href="favorites.php" class="main-link"><i class="icon-heart px-5"></i>المفضله</a></li>
+                </ul>
+
+                
 
                 </div>
             </div>

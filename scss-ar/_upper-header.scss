@@ -38,7 +38,9 @@ header {
         text-align: left;
         padding: $size-12 0px;
         background-color: white;
-
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
         .container {
             padding: 0;
 
@@ -48,11 +50,12 @@ header {
         }
     }
     nav {
-        background-color: $stColor;
         border-radius: 0px !important;
         margin-bottom: 0 !important;
 
         .container {
+            background-color: $stColor;
+            border-radius: 4px;
             .navbar-header {
                 a.navbar-brand {
                     height: 120px;
