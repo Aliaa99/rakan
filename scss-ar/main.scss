@@ -161,7 +161,7 @@ input.personal-passport {
     margin: 6em 0;
 }
 .color-primary {
-    color: $stColor;
+    color: $stColor !important;
 }
 .global-head {
     background: url(../../images/bg.png);
@@ -216,10 +216,11 @@ input.personal-passport {
     }
 }
 .product-card {
-    border: 1px solid $graybg;
+    border: 1px solid #dfdfdf;
     margin: 10px 0;
     // border-radius: 10px;
     padding: 15px;
+    background-color: white;
     h4 {
         font-size: 14px;
     }
@@ -254,6 +255,13 @@ input.personal-passport {
         i {
             font-size: $size-16;
         }
+    }
+}
+.related-ads-title {
+    margin-bottom: 60px;
+    strong {
+        border-bottom: 3px solid $stColor;
+        padding-bottom: 8px;
     }
 }
 .size-10 {

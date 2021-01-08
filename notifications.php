@@ -34,7 +34,7 @@
             <div class="row notifications-card type-1 mt-20">
                 
                 <div class="col-sm-10">
-                    <!-- <p><a href="#" class="color-gray"><strong>Ahmed</strong></a> Commented to your post <a href="product-details.php" class="color-primary"><strong>Pre owned rolex Pre owned rolex Pre owned rolex</a></span></p> -->
+                    <!-- <p><a href="#" class="color-gray"><strong>Ahmed</strong></a> Commented to your post <a href="ad-details.php" class="color-primary"><strong>Pre owned rolex Pre owned rolex Pre owned rolex</a></span></p> -->
                     <article>
                         <h5 class="my-0 color-black"><strong>محمد السيد</strong><small class="px-10">رد على الإعلان</small></h5>
                         <p class="size-12 mt-10 color-gray">تعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولا</p>

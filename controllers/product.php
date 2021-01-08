@@ -1,5 +1,5 @@
 <section class="product-card">
-    <a href="product-details.php">
+    <a href="ad-details.php">
         <div class="row">
             <div class="col-md-3 col-sm-4 col-xs-4 text-center">
                 <img class="product-card__img" src="images/adds.png" width="70%" alt="">
