@@ -76,7 +76,7 @@ input, textarea, select {
 }
 input::placeholder, textarea::placeholder, select::placeholder {
   font-family: "Tajawal Rg" !important;
-  color: #DDD !important;
+  color: #afafaf !important;
 }
 
 select.form-control {
@@ -166,8 +166,13 @@ input.personal-passport {
   margin: 6em 0;
 }
 
+.color-primary {
+  color: #20AB96;
+}
+
 .global-head {
   background: url(../../images/bg.png);
+  background-position: top;
   padding: 5px 20px 10px;
   text-align: center;
   margin-top: 10px;
@@ -175,18 +180,32 @@ input.personal-passport {
   z-index: 9;
   position: relative;
   color: white;
-  padding: 40px 0 0 0;
+  padding: 50px 0 0 0;
+}
+.global-head .layer {
+  background-color: rgba(35, 48, 46, 0.84);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.global-head article {
+  position: relative;
 }
 .global-head .breadcrumb {
-  max-width: 200px;
+  max-width: 240px;
   margin: auto;
   background-color: #909594;
 }
-.global-head .breadcrumb .breadcrumb-item.active {
-  color: white;
+.global-head .breadcrumb .breadcrumb-item {
+  color: white !important;
+}
+.global-head .breadcrumb .breadcrumb-item a {
+  color: white !important;
 }
 .global-head h4 {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 .global-head h4 strong {
   border-bottom: 3px solid white;
@@ -259,7 +278,7 @@ input.personal-passport {
 }
 
 .color-gray {
-  color: #7e899c;
+  color: #a0a0a0;
 }
 
 .color-black {
@@ -292,7 +311,6 @@ input.personal-passport {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-  float: initial !important;
 }
 
 .about {
@@ -419,8 +437,13 @@ header nav .container ul.navbar-left li a:hover {
 }
 
 .py-15 {
-  padding-bottom: 4px;
-  padding-top: 12px;
+  padding-bottom: 4px !important;
+  padding-top: 12px !important;
+}
+
+.py-20 {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .font-regular {
@@ -558,7 +581,6 @@ body .sideprofile img.chat {
 }
 body .sideprofile ul {
   border: 1px solid #f6f7f9;
-  padding-top: 10px;
   border-top: 0px;
 }
 body .sideprofile ul li a {
@@ -833,15 +855,9 @@ input[type=checkbox]:checked:before {
   text-align: end;
 }
 
-.notifications {
-  border: 1px solid #f1f3f5;
-  padding: 10px 20px 20px 20px;
-  border-radius: 10px;
-}
 .notifications-card {
   border: 1px solid #f1f3f5;
   padding: 14px;
-  border-radius: 12px;
 }
 .notifications-card p, .notifications-card span {
   font-weight: 400 !important;
@@ -948,8 +964,7 @@ textarea {
 }
 
 .style-adjust {
-  margin-bottom: 5px !important;
-  border-bottom: 1px solid #EEE;
+  margin: 0 !important;
   border-top: 1px solid #EEE;
   background-color: white !important;
 }
@@ -960,24 +975,24 @@ textarea {
 
 .chat-p-left {
   text-align: justify;
-  background-color: #f1f3f5;
-  padding: 15px;
+  background-color: #20AB96;
+  color: white;
+  padding: 10px;
   margin: 10px;
   border-radius: 16px;
   margin-right: auto;
   max-width: 50%;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .chat-p-right {
   direction: rtl;
-  background-color: #cec47f;
-  color: white;
-  padding: 15px;
+  border: 1px solid #dddddd;
+  padding: 10px;
   margin: 10px;
   border-radius: 16px;
   max-width: 50%;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .rtl {
@@ -985,23 +1000,37 @@ textarea {
 }
 
 .h-60 {
-  height: 65.25vh;
+  height: 45vh;
   overflow: overlay;
 }
 
 .chat-size {
   position: relative;
   height: 65.25vh;
+  border: 1px solid #f6f7f9;
 }
 .chat-size .input-group {
   position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
+  padding: 15px;
+}
+
+.search-here {
+  margin: 14px auto;
+  text-align: center;
+  width: auto;
+}
+
+.user-name {
+  border-bottom: 1px solid #f6f7f9;
+  display: flex;
+  justify-content: space-between;
 }
 
 .chat-area {
-  max-height: 60vh;
+  max-height: 45vh;
   overflow: overlay;
 }
 
@@ -1059,6 +1088,25 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.shadowed {
+  box-shadow: 0px 3px 20px #00000029;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 6px 24px;
+}
+
+.notifications-card.type-1 {
+  border: 1px solid #20AB96 !important;
+  border-radius: 4px !important;
+}
+.notifications-card.type-2 {
+  border-radius: 4px !important;
+  background-color: #f8f8f8 !important;
 }
 
 /*** End _body-part. ***/
@@ -1133,13 +1181,19 @@ hr {
 /********* End MAX MEDIA *********/
 /*** End _body-part. ***/
 /*** Start Footer ***/
-.upper-footer {
-  background-color: #f1f5f4;
-}
-
 .lower-footer {
   padding: 4rem 0;
-  background-color: #f7fafa;
+  background: url(../../images/bg.png);
+  background-position: top;
+  position: relative;
+}
+.lower-footer .layer {
+  background-color: rgba(35, 48, 46, 0.84);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .lower-footer .form-control {
   border: none !important;

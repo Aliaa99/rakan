@@ -22,13 +22,9 @@
     }
 }
 .notifications {
-    border: 1px solid #f1f3f5;
-    padding: $size-10 $size-20 $size-20 $size-20;
-    border-radius: 10px;
     &-card {
         border: 1px solid #f1f3f5;
         padding: $size-14;
-        border-radius: 12px;
         p, span {
             font-weight: 400 !important;
         }
@@ -124,8 +120,8 @@ textarea {
     background-color: $graybg;
 }
 .style-adjust {
-    margin-bottom: 5px !important;
-    border-bottom: 1px solid #EEE;
+    margin: 0 !important;
+    // border-bottom: 1px solid #EEE;
     border-top: 1px solid #EEE;
     background-color: white !important;
 }
@@ -134,44 +130,58 @@ textarea {
 }
 .chat-p-left {
     text-align: justify;
-    background-color: #f1f3f5;
-    padding: 15px;
+    background-color: $stColor;
+    color: white;
+    padding: 10px;
     margin: 10px;
     border-radius: 16px;
     margin-right: auto;
     max-width: 50%;
-    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }
 .chat-p-right {
     // text-align: right;
     direction: rtl;
-    background-color: $secColor;
-    color: white;
-    padding: 15px;
+    // background-color: $secColor;
+    // color: white;
+    border: 1px solid #dddddd;
+    padding: 10px;
     margin: 10px;
     border-radius: 16px;
     max-width: 50%;
-    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 .rtl {
     direction: rtl;
 }
 .h-60 {
-    height: 65.25vh;
+    height: 45vh;
     overflow: overlay;
 }
 .chat-size {
     position: relative;
     height: 65.25vh;
+    border: 1px solid #f6f7f9;
     .input-group {
         position: absolute;
         right: 0;
         left: 0;
         bottom: 0;
+        padding: 15px;
     }
 }
+.search-here {
+    margin: 14px auto;
+    text-align: center;
+    width: auto;
+}
+.user-name {
+    border-bottom: 1px solid #f6f7f9 ;
+    display: flex;
+    justify-content: space-between;
+}
 .chat-area {
-    max-height: 60vh;
+    max-height: 45vh;
     overflow: overlay;
 }
 ::-webkit-scrollbar-thumb {
@@ -235,4 +245,22 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.shadowed {
+    box-shadow: 0px 3px 20px #00000029;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.btn {
+    padding: 6px 24px;
+}
+.notifications-card {
+    &.type-1 {
+        border: 1px solid $stColor !important;
+        border-radius: 4px !important;
+    }
+    &.type-2 {
+        border-radius: 4px !important;
+        background-color: #f8f8f8 !important;
+    }
 }

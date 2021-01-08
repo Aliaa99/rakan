@@ -2,6 +2,7 @@
     include 'controllers/header.php';
 ?>
 <section class="global-head global-head--no-transform">
+    <div class="layer"></div>
     <article>
         <h4><strong>الرسائل</strong></h4>
         <nav aria-label="breadcrumb">
@@ -9,7 +10,7 @@
                 <li class="breadcrumb-item"><a href="#">الرئيسيه</a></li>
                 <li class="breadcrumb-item active" aria-current="page">الرسائل</li>
             </ol>
-    </nav>
+        </nav>
     </article>
 </section>
 <div class="container  m-h-50 mb-60">
@@ -18,6 +19,8 @@
         <div class="col-md-3 col-sm-4 px-0">
             <div class="sideprofile">
                     <!-- tabs -->
+                <input type="text" class="form-control search-here" placeholder="ابحث هنا">
+                <h5 class="mb-20"><strong>المحادثات</strong></h5>
                 <ul class="nav nav-tabs nav-stacked bg-gray h-60">
                     <li class="active style-adjust">
                         <a data-toggle="tab" href="#chat-panel">
@@ -26,12 +29,12 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
-                                    <span class="time">4:45 AM</span><br/>
-                                    <span class="count">5</span>
+                                    <span class="time">4:45 AM</span>
+                                    <!-- <br/><span class="count">5</span> -->
                                 </div>
                             </div>
                         </a>
@@ -43,12 +46,12 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
-                                    <span class="time">4:45 AM</span><br/>
-                                    <span class="count">35</span>
+                                    <span class="time">4:45 AM</span>
+                                    <!-- <br/><span class="count">35</span> -->
                                 </div>
                             </div>
                         </a>
@@ -60,12 +63,12 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
-                                    <span class="time">4:45 AM</span><br/>
-                                    <span class="count">35</span>
+                                    <span class="time">4:45 AM</span>
+                                    <!-- <br/><span class="count">35</span> -->
                                 </div>
                             </div>
                         </a>
@@ -77,25 +80,8 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
-                                </div>
-                                <div class="col-xs-3 px-0 text-cenetr">
-                                    <span class="time">4:45 AM</span><br/>
-                                    <span class="count">35</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="style-adjust">
-                        <a data-toggle="tab" href="#chat-panel">
-                            <div class="row">
-                                <div class="col-xs-2 px-0">
-                                    <img  src="images/profile.png" class="chat" alt="">
-                                </div>
-                                <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
                                     <span class="time">4:45 AM</span><br/>
@@ -111,8 +97,8 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
                                     <span class="time">4:45 AM</span><br/>
@@ -128,8 +114,8 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
                                     <span class="time">4:45 AM</span><br/>
@@ -145,8 +131,25 @@
                                     <img  src="images/profile.png" class="chat" alt="">
                                 </div>
                                 <div class="col-xs-7 px-0">
-                                    <small class="font-regular"><strong>Mohamed Ahmed</strong></small><br/>
-                                    <small class="font-regular">How are you ?</small>
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
+                                </div>
+                                <div class="col-xs-3 px-0 text-cenetr">
+                                    <span class="time">4:45 AM</span><br/>
+                                    <span class="count">35</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="style-adjust">
+                        <a data-toggle="tab" href="#chat-panel">
+                            <div class="row">
+                                <div class="col-xs-2 px-0">
+                                    <img  src="images/profile.png" class="chat" alt="">
+                                </div>
+                                <div class="col-xs-7 px-0">
+                                    <small class="font-regular"><strong>محمد أحمد</strong></small><br/>
+                                    <small class="font-regular">ألسلام عليكم ؟</small>
                                 </div>
                                 <div class="col-xs-3 px-0 text-cenetr">
                                     <span class="time">4:45 AM</span><br/>
@@ -164,45 +167,43 @@
                     <!-- tabs content -->
                     <!-- chat-panel -->
                     <div id="chat-panel" class="tab-pane fade in active">
+                        <h4 class="px-10 py-20 mt-0 user-name"><strong>محمد أحمد</strong> <button><small>حذف المحادثه</small></button></h4>
                         <ul class="chat-area">
+                            <li class="rtl">
+                                <p class="chat-p-right">السلام عليكم ؟</p>
+                            </li>
                             <li>
-                                <p class="chat-p-left">Lorem ipsum dolor magnam ecessitatibus? Voluptatem, perspiciatis.</p>
+                                <p class="chat-p-left">وعليكم السلام والرحمه</p>
                             </li>
                             <li class="rtl">
-                                <p class="chat-p-right">Lorem ipsum doloremque sint eos itaum doloremque omnis aspernatur necessitatibus? Similique alias commodi facere.</p>
+                                <p class="chat-p-right">السلام عليكم ؟</p>
                             </li>
                             <li>
-                                <p class="chat-p-left"> Beatae cum aliquid nam, aut! Dolor facere temporibus eos!</p>
+                                <p class="chat-p-left">وعليكم السلام والرحمه</p>
                             </li>
                             <li class="rtl">
-                                <p class="chat-p-right">Lorem ipsum doloremque sint eos itaum doloremque omnis aspernatur necessitatibus? Similique alias commodi facere.</p>
+                                <p class="chat-p-right">السلام عليكم ؟</p>
                             </li>
                             <li>
-                                <p class="chat-p-left"> Beatae cum aliquid nam, aut! Dolor facere temporibus eos!</p>
+                                <p class="chat-p-left">وعليكم السلام والرحمه</p>
                             </li>
                             <li class="rtl">
-                                <p class="chat-p-right">Lorem ipsum doloremque sint eos itaum doloremque omnis aspernatur necessitatibus? Similique alias commodi facere.</p>
+                                <p class="chat-p-right">السلام عليكم ؟</p>
                             </li>
                             <li>
-                                <p class="chat-p-left"> Beatae cum aliquid nam, aut! Dolor facere temporibus eos!</p>
+                                <p class="chat-p-left">وعليكم السلام والرحمه</p>
                             </li>
                             <li class="rtl">
-                                <p class="chat-p-right">Lorem ipsum doloremque sint eos itaum doloremque omnis aspernatur necessitatibus? Similique alias commodi facere.</p>
+                                <p class="chat-p-right">السلام عليكم ؟</p>
                             </li>
                             <li>
-                                <p class="chat-p-left"> Beatae cum aliquid nam, aut! Dolor facere temporibus eos!</p>
-                            </li>
-                            <li class="rtl">
-                                <p class="chat-p-right">Lorem ipsum doloremque sint eos itaum doloremque omnis aspernatur necessitatibus? Similique alias commodi facere.</p>
-                            </li>
-                            <li>
-                                <p class="chat-p-left"> Beatae cum aliquid nam, aut! Dolor facere temporibus eos!</p>
+                                <p class="chat-p-left">وعليكم السلام والرحمه وعليكم السلام والرحمهوعليكم السلام والرحمهوعليكم السلام والرحمهوعليكم السلام والرحمه</p>
                             </li>
                         </ul>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Send a message ..">
+                            <input type="text" class="form-control" placeholder="ارسال">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="fa fa-paper-plane"></i></button>
+                                <button class="btn btn-primary" type="button"><i class="fa fa-paper-plane"></i></button>
                             </span>
                         </div>
                     </div>
