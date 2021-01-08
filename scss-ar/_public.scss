@@ -264,3 +264,27 @@ hr {
         background-color: #f8f8f8 !important;
     }
 }
+.setting-title{
+    padding: 20px;
+    border: 1px solid #f1f3f5;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    p{
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    ul{
+        li{
+            display: inline-block;
+            padding: 10px;
+            color:$thirdColor;
+        }
+    }
+}
