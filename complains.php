@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
 <section class="global-head">
@@ -15,8 +18,8 @@
 </section>
 <div class="container mb-60 mt-30">
     <div class="row">
-        <div class="col-sm-12 text-center">
-            <img src="images/watch.png" class="mb-4 mx-auto" width="30%" alt="">
+        <div class="col-sm-12 text-center py-20">
+            <img src="images/illustrations_images/complaints.png" class="mb-4 mx-auto" width="30%" alt="">
         </div>
         <div class="col-sm-12">
             <h5><strong>اختر النوع</strong></h5>

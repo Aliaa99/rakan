@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" />
 
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
+        <link rel="stylesheet" href="fonts/fontello/css/fontello.css" />
+
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <!-- Owl carousel -->
@@ -91,25 +93,7 @@
 
  <header>
 
-        <div class="language-area">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-md-10 col-sm-6 col-xs-8 text-center">
-                        <a href="index.php">
-                            <img src="images/logo.png" width="120px" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4 select-lang">
-                        <select class="form-control borderless" id="">
-                            <option value="" >Arabic</option>
-                            <option value="" selected>English </option>
-                        </select>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
 
 
@@ -148,10 +132,10 @@
                     </div>
                 </ul>
                 <ul class="nav navbar-nav  navbar-right">
-                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>الرئيسيه</a></li>
-                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope-o px-5"></i>الرسائل</a><span class="red-dot"></span></li>
-                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell-o px-5"></i>الإشعارات</a><span class="red-dot"></span></li>
-                    <li><a href="favorites.php" class="main-link"><i class="icon-heart px-5"></i>المفضله</a></li>
+                    <li class="active"><a href="categories.php" class="main-link"><i class="icon-home px-5"></i>الرئيسيه</a></li>
+                    <li><a href="messages.php" class="main-link"><i class="icon-mail px-5"></i>الرسائل</a><span class="red-dot"></span></li>
+                    <li><a href="notifications.php" class="main-link"><i class="icon-bell px-5"></i>الإشعارات</a><span class="red-dot"></span></li>
+                    <li><a href="favorites.php" class="main-link"><i class="icon-love px-5"></i>المفضله</a></li>
                 </ul>
 
                 

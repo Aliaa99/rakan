@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
 <section class="about"></section>

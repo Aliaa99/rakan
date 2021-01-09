@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
 <section class="global-head">
@@ -22,7 +25,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" checked="checked" name="radio">
                         <strong>منطقه أ</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -30,7 +33,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ب</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -38,7 +41,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ج</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -46,7 +49,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه أ</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -54,7 +57,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ب</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -62,7 +65,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ج</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -70,7 +73,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه أ</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -79,7 +82,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ج</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -87,7 +90,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه أ</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -95,7 +98,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ب</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>
@@ -103,7 +106,7 @@
                     <label class="checkbox-adjust">
                         <input type="radio" name="radio">
                         <strong>منطقه ج</strong>
-                        <i class="fa fa-arrow-left px-5"></i>
+                        <i class="icon-go px-5"></i>
                         <span class="checkmark"></span>
                     </label>
                 </div>

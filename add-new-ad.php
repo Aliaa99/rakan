@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
 <section class="global-head">
@@ -15,20 +18,89 @@
 </section>
 <div class="container mb-60 mt-30">
     <div class="row">
-        <div class="col-sm-12 text-center">
-            <img src="images/watch.png" class="mb-4 mx-auto" width="30%" alt="">
-        </div>
+        
         <div class="col-sm-12">
-            <h5><strong>اختر نوع الاعلان</strong></h5>
             <form action="">
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male" class="px-10">قسم الشكاوى</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female" class="px-10">قسم المقترحات</label><br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5><strong>عنوان الاعلان</strong></h5>
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <input type="text" class="form-control"  placeholder="مثال سياره تويوتا" >
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <div class="select">
+                            <select  class="form-control select-style" >
+                                <option value="" selected disabled class="option form-control" >القسم</option>
+                                <option class="option form-control">2</option>
+                                <option class="option form-control">3</option>
+                                <option class="option form-control">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <div class="select">
+                            <select  class="form-control select-style" >
+                                <option value="" selected disabled class="option form-control" >نوع السياره</option>
+                                <option class="option form-control">2</option>
+                                <option class="option form-control">3</option>
+                                <option class="option form-control">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <div class="select">
+                            <select  class="form-control select-style" >
+                                <option value="" selected disabled class="option form-control" >موديل السياره</option>
+                                <option class="option form-control">2</option>
+                                <option class="option form-control">3</option>
+                                <option class="option form-control">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <div class="select">
+                            <select  class="form-control select-style" >
+                                <option value="" selected disabled class="option form-control" >سنة الصنع</option>
+                                <option class="option form-control">2</option>
+                                <option class="option form-control">3</option>
+                                <option class="option form-control">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <hr class="my-10">
+                    </div>
+                    <div class="col-sm-12">
+                        <h5><strong>رقم الجوال</strong></h5>
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <div class="input-group mb-20">
+                        <input type="text" class="form-control"  placeholder="01123123123" >
+                            <span class="input-group-btn">
+                                <button class="btn btn-default pa-9" title="اخفاء رقم الجوال" type="button"><i class="icon-key"></i></button>
+                            </span>
+                        </div><!-- /input-group -->
 
-                <h5 class="mt-30"><strong>اقترح علينا</strong></h5>
-                <textarea name="" id="" cols="30" rows="6" placeholder="اكتب اقتراحك هنا .."></textarea>
-                <button type="button" class="btn btn-primary mt-20">ارسال</button>
+                        <!-- <input type="text" class="form-control"  placeholder="01123123123" > -->
+                    </div>
+                    <div class="col-sm-6 ">
+                        <h5 class="mt-0 mb-4"><strong>هل ترغب فى تحديد السعر ؟</strong></h5>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="px-10">نعم</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="px-10">لا</label><br>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr class="my-10">
+                </div>
+                <div class="col-sm-12">
+                
+                <h5 class="mt-30"><strong>نص الاعلان</strong></h5>
+                <textarea name="" id="" cols="30" rows="6" placeholder="تفاصيل الاعلان"></textarea>
+                <button type="button" class="btn btn-primary mt-20">ارسال الاعلان</button>
+                </div>
 
             </form>
         </div>

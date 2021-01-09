@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
 <section class="global-head global-head--no-transform">
@@ -145,8 +148,8 @@
                             النص سيتغير هذا النص سيتغير هذا النص سيتغير  </p>
                     </article>
                 </div>
-                <button type="button" class="btn btn-primary">موافق</button>
-                <button type="button" class="btn btn-danger">لا أوافق</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='sending-code.php'">موافق</button>
+                <button type="button" class="btn btn-danger" onclick="window.location.href='register.php'">لا أوافق</button>
 
             </div>
         </div>

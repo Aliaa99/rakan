@@ -84,11 +84,11 @@ input, textarea, select {
     &::placeholder {
         font-family: $baseFont !important;
         color: #afafaf !important;
+        font-size: 12px !important;
     }
 }
 select.form-control {
     box-shadow: inset 0 0 0 0 !important;
-    border: 1px solid #f1f3f5 !important;
 }
 button {
 	outline: none !important;
@@ -122,6 +122,9 @@ p {
 }
 .width-adjust {
     width: 100% !important;
+}
+.width-50 {
+    width: 50% !important;
 }
 .upload-it {
     padding-top: 1.2em;
@@ -294,6 +297,10 @@ input.personal-passport {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+.my-10 {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
 .m-h-50 {
     min-height: 60vh;
 }
@@ -321,7 +328,7 @@ input.personal-passport {
 .mb-60 {
     margin-bottom: 60px !important; 
 }
-input, .input-group-btn button {
+.input-group-btn button {
     box-shadow: inset 0 0 0 0 !important;
     border: 1px solid #929292 !important;
     &:focus {

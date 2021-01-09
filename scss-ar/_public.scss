@@ -47,7 +47,7 @@ a {
 }
 .red-dot {
     position: absolute;
-    right: 28px;
+    right: 29px;
     left: 0;
     top: 15px;
     width: 7px;
@@ -113,9 +113,7 @@ textarea {
     padding: 3px 4px 2px;
     float: left;
 }
-.text-right {
-    text-align: left !important;
-}
+
 .bg-gray {
     background-color: $graybg;
 }
@@ -315,6 +313,8 @@ hr {
         z-index: 9;
         display: flex;
         align-items: center;
+        padding-right: 10px;
+        padding-left: 10px;
       }
       i {
         position: absolute;
@@ -355,4 +355,48 @@ hr {
     padding: 18px 10px 18px 15px;
     border-radius: 4px;
     background-color: rgb(248 248 248);
+}
+.color-red {
+    color: red;
+}
+.login-p{
+    .illustrated {
+        background: url(../../images/illustrations_images/login_photo.png);
+        background-size: cover;
+        height: 72vh;
+        @media(max-width: 991px) {
+            height: 55vh;
+        }
+        @media(max-width: 767px) {
+            display: none ;
+        }
+    }
+    .form-section {
+        box-shadow: -1px 2px 5px 0px #80808069;
+        margin: 40px 0;
+        .row {
+            display: flex;
+            align-items: center;
+            @media(max-width: 991px) {
+                min-height: 55vh;
+            }
+        }
+    }
+}
+.px-30 {
+    padding: 0 30px !important;
+}
+.pa-9 {
+    padding: 9px !important;
+}
+.underlined {
+    text-decoration: underline;
+}
+.icon-go {
+    color: $stColor;
+    font-size: 18px !important;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
 }
