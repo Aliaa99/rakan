@@ -21,7 +21,11 @@
         <h4 class="px-10 py-20 mt-0 user-name user-name__borderless "><strong>تحميل الصور</strong></h4>
         <div class="checkbox-card">
             <div class="row">
-               تحميل الصور
+                <div  class="relative">
+                    <input class="multable-photos" id="file-input" type="file" multiple>
+                    <div id="preview" class="pro-images">
+                    </div>
+                </div>
             </div>
         </div>
         <button type="button" class="btn btn-primary mt-30" onclick="window.location.href='add-new-ad.php'">
