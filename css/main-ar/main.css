@@ -350,6 +350,10 @@ input.personal-passport {
   margin-top: 30px !important;
 }
 
+.mt-50 {
+  margin-top: 50px !important;
+}
+
 .mb-60 {
   margin-bottom: 60px !important;
 }
@@ -467,6 +471,10 @@ header nav .container ul.navbar-left li a:hover {
   padding-top: 20px;
 }
 
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
 .font-regular {
   font-family: "Tajawal Rg" !important;
 }
@@ -545,22 +553,6 @@ body #forgetpass,
 body #resetpass,
 body #newresetpass {
   text-align: center !important;
-}
-body .signmodel .footer {
-  font-size: 12px;
-  margin-top: 10px;
-}
-body .signmodel .footer label {
-  padding: 5px;
-}
-body .signmodel .footer a {
-  color: #cec47f;
-}
-body .signmodel .footer label {
-  color: #d0d5d9;
-}
-body .signmodel .footer p {
-  color: #d0d5d9;
 }
 body .pillsstyle li {
   width: 48%;
@@ -782,13 +774,17 @@ input[type=radio]:checked:before {
   border-radius: 50%;
 }
 
+input[type=checkbox] {
+  position: relative;
+}
+
 input[type=checkbox]:checked:before {
   content: "";
   position: absolute;
   left: -1px;
   font-weight: 100;
   bottom: 0px;
-  background-color: #cec47f;
+  background-color: #20AB96;
   color: #ffffff;
   width: 15px;
   height: 15px;
@@ -801,6 +797,11 @@ input[type=checkbox]:checked:before {
   bottom: 0px;
   right: 0px;
   font-family: FontAwesome;
+}
+
+.commision-deal {
+  position: absolute;
+  font-weight: normal;
 }
 
 @keyframes fadein {
@@ -1094,10 +1095,15 @@ hr {
 }
 
 .slick-slide {
+  height: 60% !important;
+  display: flex !important;
   margin: 20px 0;
 }
+.slick-slide.item {
+  height: 100px !important;
+}
 .slick-slide img {
-  margin: auto !important;
+  margin: 0 auto !important;
   max-height: 100% !important;
 }
 
@@ -1171,14 +1177,26 @@ hr {
   z-index: 9;
   display: flex;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 32px;
   padding-left: 10px;
+  font-size: 12px;
+  max-width: 85%;
 }
 .checkbox-adjust i {
   position: absolute;
   z-index: 9;
   left: 1rem;
   display: flex;
+}
+.checkbox-adjust i.icon-car {
+  right: 1rem;
+  left: auto;
+  padding: 5px 3px 5px 6px;
+  background-color: #20ab96;
+  color: white !important;
+  border-radius: 4px;
+  margin-right: 4px;
+  top: 15px;
 }
 
 /* On mouse-over, add a grey background color */
@@ -1194,8 +1212,19 @@ hr {
 }
 
 .checkbox-adjust input:checked ~ strong,
-.checkbox-adjust input:checked ~ i {
+.checkbox-adjust input:checked ~ i.icon-go {
   color: white !important;
+}
+
+.checkbox-adjust input:checked ~ i.icon-car {
+  right: 1rem;
+  left: auto;
+  padding: 5px 3px 5px 6px;
+  background-color: white;
+  color: #20ab96 !important;
+  border-radius: 4px;
+  margin-right: 4px;
+  top: 15px;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1272,6 +1301,42 @@ hr {
   align-items: center;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
+.signmodel .modal-content {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px !important;
+}
+.signmodel ul li img {
+  border: 1px solid #ddd;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+.signmodel ul li img.primary {
+  background-color: #20AB96;
+}
+.signmodel ul li img.gray {
+  background-color: #ddd;
+}
+
+button.close {
+  background-color: black;
+  color: white;
+  padding: 0px 7px 4px 7px;
+  text-shadow: none;
+  opacity: 1;
+  border-radius: 4px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+button.close:hover {
+  color: white;
+}
+
 /*** End _body-part. ***/
 /*** Start _body-part.***/
 /********* MIN MEDIA *********/
@@ -1281,10 +1346,6 @@ hr {
     margin: auto;
     padding: 40px 0px;
     font-size: 14px;
-  }
-
-  .signmodel {
-    width: 500px;
   }
 
   .special {

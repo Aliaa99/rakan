@@ -99,12 +99,45 @@
                 
                 <h5 class="mt-30"><strong>نص الاعلان</strong></h5>
                 <textarea name="" id="" cols="30" rows="6" placeholder="تفاصيل الاعلان"></textarea>
-                <button type="button" class="btn btn-primary mt-20">ارسال الاعلان</button>
+                <button type="button" class="btn btn-primary mt-20"  href="#signupModal" data-toggle="modal" data-target="#signupModal">ارسال الاعلان</button>
                 </div>
 
             </form>
         </div>
     </div>
+      <!-- sigup modal -->
+      <div class="modal" id="signupModal"
+            role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true"> 
+    
+            <div class="modal-dialog signmodel"> 
+                <div class="modal-content"> 
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <section>
+                        <img src="images/green/confirmation.png" class="mb-4 mx-auto" width="60px" alt="">
+                    </section>
+                    <h4 class="mb-20 mt-20"><strong>لقد تم ارسال الاعلان</strong></h4>
+
+                    <ul class="d-flex space-around">
+                       
+                        <li><a href="ad-details.php" class="color-black">
+                            <article>
+                            <img src="images/vectors/advertiseme.png" class="mb-4 mx-auto primary" width="100%" alt="">
+
+                                <h5><strong>الذهاب للاعلان</strong></h5>
+                            </article>
+                        </a></li>
+                        <li><a href="index.php" class="color-black">
+                        <article>
+                            <img src="images/vectors/house.png" class="mb-4 mx-auto gray" height="99px" width="100%" alt="">
+
+                                <h5><strong>الذهاب للرئيسيه</strong></h5>
+                            </article>
+                        </a></li>
+                    </ul>
+                </div> 
+            </div> 
+        </div>
 </div>
 <?php
     include 'controllers/footer.php';

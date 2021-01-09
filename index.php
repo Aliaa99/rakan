@@ -1,20 +1,19 @@
 <?php
     include 'controllers/upper-header.php';
 ?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <button class="btn btn-warning" href="#signupModal" data-toggle="modal" data-target="#signupModal">إضافة اعلان</button>
+        </div>
+    </div>
+</div>
 <?php
     include 'controllers/header.php';
 ?>
 
 
-        <div class="tele-academy-paging">
-            <div class="container text-center">
-                <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
-                <h2>New Member ?</h2>
-                <a href="#signupModal" data-toggle="modal" class="newmemb">new member</a>
-                <p>I Already have an account</p>
-                <a href="#signupModal" data-toggle="modal"> Signin</a>
-            </div>
-        </div>
+        
 
             <!-- sigup modal -->
         <div class="modal" id="signupModal"
@@ -23,74 +22,29 @@
     
             <div class="modal-dialog signmodel"> 
                 <div class="modal-content"> 
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <section>
+                        <img src="images/green/choose.png" class="mb-4 mx-auto" width="60px" alt="">
+                    </section>
+                    <h4 class="mb-20"><strong>من فضلك اختر نوع الاعلان</strong></h4>
 
-                    <ul class="nav nav-pills pillsstyle">
-                        <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
-                        <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
+                    <ul class="d-flex space-around">
+                       
+                        <li><a href="terms.php" class="color-black">
+                            <article>
+                            <img src="images/auction.png" class="mb-4 mx-auto gray" width="100%" alt="">
+
+                                <h5><strong>اعلان مزاد</strong></h5>
+                            </article>
+                        </a></li>
+                        <li><a href="ad-type.php" class="color-black">
+                        <article>
+                        <img src="images/adds.png" class="mb-4 mx-auto primary" width="100%" alt="">
+
+                                <h5><strong>اعلان حراج</strong></h5>
+                            </article>
+                        </a></li>
                     </ul>
-
-                    <!-- Modal body -->
-                    <div class="tab-content">
-                        <!-- signup tap -->
-                        <div id="home" class="tab-pane fade in active">
-                            
-                                        <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Sign Up </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Username"> 
-                                <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
-                                <input type="email" class="form-control" id="email" placeholder="Email"> 
-                                <input type="text" class="form-control" id="country" placeholder="country"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-                                <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
-                                <button type="submit">Sign Up</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <form>
-                                    <div class="checkbox">
-                                        <label><input class="check-adjust" type="checkbox" value="">I agree to all <a href="#">terems&conditions</a></label>
-                                    </div>
-                                    <!-- <input type="checkbox" value="">
-                                    <label class="checkbox-inline">
-                                        I agree to all
-                                    </label> -->
-                                    
-                                </form>
-                                <p> 
-                                    Already have an account ?
-                                    <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
-                                </p> 
-                            </div> 
-                        </div>
-
-                        <!-- login tap -->
-
-                        <div id="menu1" class="tab-pane fade">
-                                <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Log in </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Email/Username"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-
-                                <button type="submit">Log in</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <a href="#forgetpass" data-toggle="modal">forget password</a>
-                                <p> 
-                                    Don't have an account ?
-                                    <a href="#home" data-toggle="pill" class="logintab"> sign up </a> 
-                                </p> 
-                            </div> 
-                        </div>
-                    </div>
                 </div> 
             </div> 
         </div>
@@ -154,7 +108,9 @@
             </div>
         </div>
 
-
+        <?php
+    include 'controllers/footer.php';
+?>
 
         <!-- Jquery js -->
         <script src="js/jquery-3.2.1.js"></script>

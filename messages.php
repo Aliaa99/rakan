@@ -170,7 +170,7 @@
                     <!-- tabs content -->
                     <!-- chat-panel -->
                     <div id="chat-panel" class="tab-pane fade in active">
-                        <h4 class="px-10 py-20 mt-0 user-name"><strong>محمد أحمد</strong> <button><small>حذف المحادثه</small></button></h4>
+                        <h4 class="px-10 py-20 mt-0 user-name"><strong>محمد أحمد</strong> <button><i class="icon-trash color-red"></i><small>حذف المحادثه</small></button></h4>
                         <ul class="chat-area">
                             <li class="rtl">
                                 <p class="chat-p-right">السلام عليكم ؟</p>

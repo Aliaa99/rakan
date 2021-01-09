@@ -24,7 +24,7 @@
                تحميل الصور
             </div>
         </div>
-        <button type="button" class="btn btn-primary mt-30" onclick="window.location.href='choose-district.php'">
+        <button type="button" class="btn btn-primary mt-30" onclick="window.location.href='add-new-ad.php'">
             <!-- <a href="messages.php"> -->
             استمرار
             <!-- </a>     -->

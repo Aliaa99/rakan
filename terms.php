@@ -148,7 +148,7 @@
                             النص سيتغير هذا النص سيتغير هذا النص سيتغير  </p>
                     </article>
                 </div>
-                <button type="button" class="btn btn-primary">موافق</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='choose-area.php'">موافق</button>
             </div>
         </div>
    

@@ -18,7 +18,7 @@
 </section>
 <div class="container m-h-50 mb-60">
     <section class="notifications">
-        <h4 class="px-10 py-20 mt-20 user-name"><strong>الإشعارات</strong> <button><small>حذف الإشعار</small></button></h4>
+        <h4 class="px-10 py-20 mt-20 user-name"><strong>الإشعارات</strong> <button><i class="icon-trash color-red"></i><small>حذف الإشعار</small></button></h4>
 
         <a href="#">
             <div class="row notifications-card mt-20">             

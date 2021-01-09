@@ -239,9 +239,14 @@ hr {
 }
 .slick-slide {
     // max-width: 150px !important;
+    height: 60% !important;
+    display: flex !important;
     margin: 20px 0;
+    &.item {
+        height: 100px !important;
+    }
     img {
-        margin: auto !important;
+        margin: 0 auto !important;
         max-height: 100% !important;
     }
 }
@@ -313,14 +318,26 @@ hr {
         z-index: 9;
         display: flex;
         align-items: center;
-        padding-right: 10px;
+        padding-right: 32px;
         padding-left: 10px;
+        font-size: 12px;
+        max-width: 85%;
       }
       i {
         position: absolute;
         z-index: 9;
         left: 1rem;
         display: flex;
+        &.icon-car {
+            right: 1rem;
+            left: auto;
+            padding: 5px 3px 5px 6px;
+            background-color: #20ab96;
+            color: white !important;
+            border-radius: 4px;
+            margin-right: 4px;
+            top: 15px;
+        }
       }
   }
   /* On mouse-over, add a grey background color */
@@ -335,8 +352,20 @@ hr {
     border-radius: 4px;
   }
   .checkbox-adjust input:checked ~ strong, 
-  .checkbox-adjust input:checked ~ i {
+  .checkbox-adjust input:checked ~ i.icon-go {
       color: white !important;
+  }
+  .checkbox-adjust input:checked ~ i {
+    &.icon-car {
+        right: 1rem;
+        left: auto;
+        padding: 5px 3px 5px 6px;
+        background-color: white;
+        color: #20ab96 !important;
+        border-radius: 4px;
+        margin-right: 4px;
+        top: 15px;
+    }
   }
   /* Create the indicator (the dot/circle - hidden when not checked) */
   .checkmark:after {
@@ -399,4 +428,43 @@ hr {
 .d-flex {
     display: flex;
     align-items: center;
+}
+.space-around {
+    justify-content: space-around;
+}
+.signmodel {
+    .modal-content {
+        max-width: 400px;
+        margin: auto;
+        padding: 30px !important
+    }
+    ul {
+        li {
+            img {
+                border: 1px solid #ddd;
+                padding: 16px 32px;
+                border-radius: 4px;
+                &.primary {
+                    background-color: $stColor;
+                }
+                &.gray {
+                    background-color: #ddd;
+                }
+            }
+        }
+    }
+}
+button.close {
+    background-color: black;
+    color: white;
+    padding: 0px 7px 4px 7px;
+    text-shadow: none;
+    opacity: 1;
+    border-radius: 4px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    &:hover {
+        color: white;
+    }
 }
