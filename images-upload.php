@@ -24,6 +24,7 @@
                 <div  class="relative">
                     <input class="multable-photos" id="file-input" type="file" multiple>
                     <div id="preview" class="pro-images">
+                    
                     </div>
                 </div>
             </div>
