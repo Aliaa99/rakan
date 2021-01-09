@@ -1,4 +1,7 @@
 <?php
+    include 'controllers/upper-header.php';
+?>
+<?php
     include 'controllers/header.php';
 ?>
     <div class="container m-h-50 mb-60">
