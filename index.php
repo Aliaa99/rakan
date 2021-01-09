@@ -12,7 +12,118 @@
     include 'controllers/header.php';
 ?>
 
+    <div class="container">
+        <ul class="nav nav-tabs auction-tabs">
+            <li class="active"><button class="btn" data-toggle="tab" href="#personal-info">المزادات القادمه</button></li>
+            <li><button class="btn" data-toggle="tab" href="#change-pass">المزادات الحاليه</button></li>
+            <li><button class="btn" data-toggle="tab" href="#change-phone">المزادات السابقه</button></li>
+        </ul>
+        <div class="profilepage">
+            شسيشسيشسي
+            <div class="tab-content">
+                <!-- tabs content -->
+                <!-- personal-info -->
+            <div id="personal-info" class="tab-pane fade in active">
+                <!-- form -->
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >First Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="first name" placeholder="first name" name="first name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Second Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="second name" placeholder="second name" name="second name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Email</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" id="email" placeholder="email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for ="sel1" class="control-label col-sm-3" >Country</label>
+                        <div class="col-sm-6">
+                            <select class="form-control" id="sel1">
+                                <option value="" selected disabled>Contury</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- change-pass -->
+            <div id="change-pass" class="tab-pane fade">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Current password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="current password" name="current password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >New Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" placeholder="New password" name="New password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >New Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="New password" name="New password">
+                        </div>
+                    </div>
 
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- change-phone -->
+            <div id="change-phone" class="tab-pane fade">
+                <form class="form-horizontal deletform">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Current Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="current password" >
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="button" class="btn btn-primary changeform">Confirm</button>
+                        </div>
+                    </div>
+                </form> 
+                <!-- form 2 -->
+                <form class="form-horizontal none showform" >
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Phone Number</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control"  placeholder="Phone Number" >
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary ">Update</button>
+                        </div>
+                    </div>
+                </form>   
+            </div>
+        </div>
+    </div>
         
 
             <!-- sigup modal -->

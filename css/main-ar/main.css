@@ -666,12 +666,6 @@ body #delete .cancel {
 body .select-style {
   box-shadow: none;
 }
-body .multable-photos {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
 body .relative {
   position: relative;
   min-height: 100px;
@@ -1335,6 +1329,20 @@ button.close {
 }
 button.close:hover {
   color: white;
+}
+
+.auction-tabs {
+  width: 50%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+.auction-tabs li.active {
+  color: #fff !important;
+  background-color: #20AB96;
+  border-color: #20AB96;
+  border-radius: 4px;
 }
 
 /*** End _body-part. ***/

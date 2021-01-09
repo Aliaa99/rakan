@@ -468,3 +468,16 @@ button.close {
         color: white;
     }
 }
+.auction-tabs {
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    li.active {
+        color: #fff !important;
+        background-color: #20AB96;
+        border-color: #20AB96;
+        border-radius: 4px;
+    }
+}
