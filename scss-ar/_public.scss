@@ -475,9 +475,27 @@ button.close {
     justify-content: space-between;
     border: none;
     li.active {
-        color: #fff !important;
-        background-color: #20AB96;
-        border-color: #20AB96;
-        border-radius: 4px;
+        button {
+            color: #fff !important;
+            background-color: #20AB96 !important;
+            border-color: #20AB96 !important;
+            border-radius: 4px;
+        }
     }
+}
+.w-120 {
+    width: 120px;
+}
+.w-85 {
+    width: 85%;
+}
+.h-34 {
+    height: 34px;
+}
+.input-group-btn {
+    // vertical-align: text-top;
+}
+.search-btn {
+    margin-top: -27px;
+    padding: 9px;
 }

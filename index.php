@@ -1,10 +1,33 @@
 <?php
     include 'controllers/upper-header.php';
 ?>
-<div class="container">
+<div class="container py-20 px-0">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 px-0">
             <button class="btn btn-warning" href="#signupModal" data-toggle="modal" data-target="#signupModal">إضافة اعلان</button>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="..." placeholder="ابحث هنا .. ">
+                <div class="input-group-btn">
+                    <div class="select w-120">
+                        <select  class="form-control select-style" >
+                            <option value="" selected disabled class="option form-control" >المدينه</option>
+                            <option class="option form-control">2</option>
+                            <option class="option form-control">3</option>
+                            <option class="option form-control">4</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn btn-primary search-btn" type="button"><i class="icon-search"></i></button>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <section class="video-show">
+                <a href="#"><i class="icon-play"></i><br />
+                <strong>شاهد الفيديو</strong>
+                </a>
+            </section>
         </div>
     </div>
 </div>
@@ -12,14 +35,72 @@
     include 'controllers/header.php';
 ?>
 
-    <div class="container">
-        <ul class="nav nav-tabs auction-tabs">
-            <li class="active"><button class="btn" data-toggle="tab" href="#personal-info">المزادات القادمه</button></li>
-            <li><button class="btn" data-toggle="tab" href="#change-pass">المزادات الحاليه</button></li>
-            <li><button class="btn" data-toggle="tab" href="#change-phone">المزادات السابقه</button></li>
+    <div class="container px-0 ">
+    <section class="comment-area my-10 py-10">
+        <ul class="nav nav-tabs auction-tabs ">
+            <li class="active"><button class="btn btn-default" data-toggle="tab" href="#personal-info"><strong>المزادات القادمه</strong></button></li>
+            <li><button class="btn btn-default" data-toggle="tab" href="#change-pass"><strong>المزادات الحاليه</strong></button></li>
+            <li><button class="btn btn-default" data-toggle="tab" href="#change-phone"><strong>المزادات السابقه</strong></button></li>
         </ul>
+
+    </section>
         <div class="profilepage">
-            شسيشسيشسي
+            <div class="row">
+                <div class="col-md-3 px-0">
+                    <div class="input-group">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary"> كل الأقسام</button>
+                            <button type="button" class="btn btn-primary dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="input-group">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"> نوع المزاد</button>
+                            <button type="button" class="btn btn-default dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button >Action</button></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="input-group">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"> اختر المدينه</button>
+                            <button type="button" class="btn btn-default dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="tab-content">
                 <!-- tabs content -->
                 <!-- personal-info -->
@@ -124,6 +205,65 @@
             </div>
         </div>
     </div>
+    </div>
+
+    <section class="comment-area mt-30">
+        <h4 class="text-center mt-30 related-ads-title"><strong>قسم الحراج </strong></h4>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mb-20">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="..." placeholder="ابحث هنا .. ">
+                                <div class="input-group-btn">
+                                    <div class="select w-120">
+                                        <select  class="form-control select-style" >
+                                            <option value="" selected disabled class="option form-control" >المدينه</option>
+                                            <option class="option form-control">2</option>
+                                            <option class="option form-control">3</option>
+                                            <option class="option form-control">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                    <button class="btn btn-primary search-btn" type="button"><i class="icon-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- <button class="btn btn-default" type="button"><i class="icon-search"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <?php
+                        include 'controllers/product.php';
+                    ?>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <?php
+                        include 'controllers/product.php';
+                    ?>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <?php
+                        include 'controllers/product.php';
+                    ?>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <?php
+                        include 'controllers/product.php';
+                    ?>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <button class="btn btn-primary mt-30">المزيد</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
         
 
             <!-- sigup modal -->
@@ -223,15 +363,3 @@
     include 'controllers/footer.php';
 ?>
 
-        <!-- Jquery js -->
-        <script src="js/jquery-3.2.1.js"></script>
-        <!-- Bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-
-        <script src="js/main.js"></script>
-    </body>
-</html>
