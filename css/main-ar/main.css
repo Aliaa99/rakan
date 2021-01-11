@@ -1334,11 +1334,28 @@ button.close:hover {
   justify-content: space-between;
   border: none;
 }
-.auction-tabs li.active {
+.auction-tabs li.active button {
   color: #fff !important;
-  background-color: #20AB96;
-  border-color: #20AB96;
+  background-color: #20AB96 !important;
+  border-color: #20AB96 !important;
   border-radius: 4px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.h-34 {
+  height: 34px;
+}
+
+.search-btn {
+  margin-top: -27px;
+  padding: 9px;
 }
 
 /*** End _body-part. ***/

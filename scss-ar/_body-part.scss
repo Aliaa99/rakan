@@ -349,4 +349,12 @@ input[type="checkbox"]:checked:before {
     }
 }
 
-
+.video-show {
+    padding: 18px !important;
+    border-radius: 4px;
+    background-color: $stColor;
+    min-height: 50px;
+    i {
+        font-size: 24px;
+    }
+}
