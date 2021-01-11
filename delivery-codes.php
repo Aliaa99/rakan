@@ -18,7 +18,7 @@
 </section>
 <div class="container m-h-50 mb-60">
     <section class="notifications">
-        <h4 class="px-10 py-20 mt-20 user-name"><strong>الأكواد</strong> <button><small>حذف الأكواد</small></button></h4>
+        <h4 class="px-10 py-20 mt-20 user-name"><strong>الأكواد</strong> <button><i class="icon-trash color-red"></i><small>حذف الأكواد</small></button></h4>
 
         <a href="receipt-confirmation.php">
             <div class="row notifications-card mt-20">             

@@ -1,3 +1,44 @@
+function previewImages() {
+
+    var preview = document.querySelector('#preview');
+
+    if (this.files) {
+        [].forEach.call(this.files, readAndPreview);
+    }
+
+    function readAndPreview(file) {
+
+        // Make sure `file.name` matches our extensions criteria
+        if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
+            return alert(file.name + " is not an image");
+        } // else...
+
+        var reader = new FileReader();
+
+        reader.addEventListener("load", function () {
+            var image = new Image();
+            image.height = 100;
+            image.title = file.name;
+            image.src = this.result;
+            preview.appendChild(image);
+            $("<i></i>").insertAfter(image).addClass("fa fa-window-close ");
+            $('i').click(function(){
+                $(this).prev().remove();
+                $(this).remove();
+            });
+            
+
+        });
+
+        reader.readAsDataURL(file);
+
+    }
+
+}
+
+document.querySelector('#file-input').addEventListener("change", previewImages);
+
+
 $(function() {
     'use strict';
 
@@ -42,7 +83,7 @@ $(function() {
             asNavFor: '.slider-nav'
         });
         $('.slider-nav').slick({
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             asNavFor: '.slider-for',
             dots: true,
@@ -87,10 +128,17 @@ $(function() {
             }
         }
     });
-    $('.change-color').click(function (){
+    $('.change-color').click(function () {
         $(this).toggleClass('is-favorite');
         $(this).children(":first").toggleClass('fa-heart-o').toggleClass('fa-heart')
     });
+
+
+
+
+
+    // $("<p>Test</p>").insertAfter(".pro-images img");
+
     // $("header ul.navbar-nav li").click(function (ee){
     //     // ee.preventDefault();
     //     $(this).addClass('active').siblings().removeClass('active');
@@ -122,6 +170,7 @@ $(function() {
 
     // $(".nicescroll-box").niceScroll(".wrap",{cursorcolor:"#15222e",cursorwidth:"8px",background:"rgba(97,97,97,0.5)",cursorborder:"1px solid #afafaf",autohidemode:'leave'});
 
+    
 });
 
 // function PreviewImage() {
@@ -132,36 +181,4 @@ $(function() {
 //         document.getElementById("uploadPreview").src = oFREvent.target.result;
 //     };
 // };
-function previewImages() {
-
-    var preview = document.querySelector('#preview');
-
-    if (this.files) {
-        [].forEach.call(this.files, readAndPreview);
-    }
-
-    function readAndPreview(file) {
-
-        // Make sure `file.name` matches our extensions criteria
-        if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
-            return alert(file.name + " is not an image");
-        } // else...
-
-        var reader = new FileReader();
-
-        reader.addEventListener("load", function () {
-            var image = new Image();
-            image.height = 100;
-            image.title = file.name;
-            image.src = this.result;
-            preview.appendChild(image);
-        });
-
-        reader.readAsDataURL(file);
-
-    }
-
-}
-
-document.querySelector('#file-input').addEventListener("change", previewImages);
 

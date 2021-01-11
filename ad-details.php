@@ -28,16 +28,22 @@
                     
                     
                     <section>
-                        <img class="img-responsive h-50" src="images/003.png" alt="">
+                        <img class="img-responsive h-50" src="images/illustrations_images/red_car.png" alt="">
                     </section>
                     <section>
-                        <img class="img-responsive h-50" src="images/003.png" alt="">
+                        <img class="img-responsive h-50" src="images/illustrations_images/red_car.png" alt="">
                     </section>
                     <section>
-                        <img class="img-responsive h-50" src="images/020.png" alt="">
+                        <img class="img-responsive h-50" src="images/022.png" alt="">
                     </section>
                     <section>
-                        <img class="img-responsive h-50" src="images/003.png" alt="">
+                        <img class="img-responsive h-50" src="images/illustrations_images/red_car.png" alt="">
+                    </section>
+                    <section>
+                        <img class="img-responsive h-50" src="images/022.png" alt="">
+                    </section>
+                    <section>
+                        <img class="img-responsive h-50" src="images/illustrations_images/red_car.png" alt="">
                     </section>
                 </div>
                 <div class="slider-nav">
@@ -45,16 +51,22 @@
                     
                     
                     <div class="item ">
-                        <img class="img-responsive" src="images/003.png" alt="">
+                        <img class="img-responsive" src="images/illustrations_images/red_car.png" alt="">
                     </div>
                     <div class="item ">
-                        <img class="img-responsive" src="images/003.png" alt="">
+                        <img class="img-responsive" src="images/illustrations_images/red_car.png" alt="">
                     </div>
                     <div class="item ">
-                        <img class="img-responsive" src="images/020.png" alt="">
+                        <img class="img-responsive" src="images/022.png" alt="">
                     </div>
                     <div class="item ">
-                        <img class="img-responsive" src="images/003.png" alt="">
+                        <img class="img-responsive" src="images/illustrations_images/red_car.png" alt="">
+                    </div>
+                    <div class="item ">
+                        <img class="img-responsive" src="images/022.png" alt="">
+                    </div>
+                    <div class="item ">
+                        <img class="img-responsive" src="images/illustrations_images/red_car.png" alt="">
                     </div>
                 </div>
 

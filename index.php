@@ -1,20 +1,130 @@
 <?php
     include 'controllers/upper-header.php';
 ?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <button class="btn btn-warning" href="#signupModal" data-toggle="modal" data-target="#signupModal">إضافة اعلان</button>
+        </div>
+    </div>
+</div>
 <?php
     include 'controllers/header.php';
 ?>
 
+    <div class="container">
+        <ul class="nav nav-tabs auction-tabs">
+            <li class="active"><button class="btn" data-toggle="tab" href="#personal-info">المزادات القادمه</button></li>
+            <li><button class="btn" data-toggle="tab" href="#change-pass">المزادات الحاليه</button></li>
+            <li><button class="btn" data-toggle="tab" href="#change-phone">المزادات السابقه</button></li>
+        </ul>
+        <div class="profilepage">
+            شسيشسيشسي
+            <div class="tab-content">
+                <!-- tabs content -->
+                <!-- personal-info -->
+            <div id="personal-info" class="tab-pane fade in active">
+                <!-- form -->
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >First Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="first name" placeholder="first name" name="first name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Second Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="second name" placeholder="second name" name="second name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Email</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" id="email" placeholder="email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for ="sel1" class="control-label col-sm-3" >Country</label>
+                        <div class="col-sm-6">
+                            <select class="form-control" id="sel1">
+                                <option value="" selected disabled>Contury</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- change-pass -->
+            <div id="change-pass" class="tab-pane fade">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Current password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="current password" name="current password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >New Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" placeholder="New password" name="New password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >New Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="New password" name="New password">
+                        </div>
+                    </div>
 
-        <div class="tele-academy-paging">
-            <div class="container text-center">
-                <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
-                <h2>New Member ?</h2>
-                <a href="#signupModal" data-toggle="modal" class="newmemb">new member</a>
-                <p>I Already have an account</p>
-                <a href="#signupModal" data-toggle="modal"> Signin</a>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- change-phone -->
+            <div id="change-phone" class="tab-pane fade">
+                <form class="form-horizontal deletform">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Current Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control"  placeholder="current password" >
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="button" class="btn btn-primary changeform">Confirm</button>
+                        </div>
+                    </div>
+                </form> 
+                <!-- form 2 -->
+                <form class="form-horizontal none showform" >
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" >Phone Number</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control"  placeholder="Phone Number" >
+                        </div>
+                    </div>
+                    <div class="form-group">        
+                        <div class="col-sm-offset-6 col-sm-4">
+                            <button type="submit" class="btn btn-primary ">Update</button>
+                        </div>
+                    </div>
+                </form>   
             </div>
         </div>
+    </div>
+        
 
             <!-- sigup modal -->
         <div class="modal" id="signupModal"
@@ -23,74 +133,29 @@
     
             <div class="modal-dialog signmodel"> 
                 <div class="modal-content"> 
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <section>
+                        <img src="images/green/choose.png" class="mb-4 mx-auto" width="60px" alt="">
+                    </section>
+                    <h4 class="mb-20"><strong>من فضلك اختر نوع الاعلان</strong></h4>
 
-                    <ul class="nav nav-pills pillsstyle">
-                        <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
-                        <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
+                    <ul class="d-flex space-around">
+                       
+                        <li><a href="terms.php" class="color-black">
+                            <article>
+                            <img src="images/auction.png" class="mb-4 mx-auto gray" width="100%" alt="">
+
+                                <h5><strong>اعلان مزاد</strong></h5>
+                            </article>
+                        </a></li>
+                        <li><a href="ad-type.php" class="color-black">
+                        <article>
+                        <img src="images/adds.png" class="mb-4 mx-auto primary" width="100%" alt="">
+
+                                <h5><strong>اعلان حراج</strong></h5>
+                            </article>
+                        </a></li>
                     </ul>
-
-                    <!-- Modal body -->
-                    <div class="tab-content">
-                        <!-- signup tap -->
-                        <div id="home" class="tab-pane fade in active">
-                            
-                                        <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Sign Up </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Username"> 
-                                <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
-                                <input type="email" class="form-control" id="email" placeholder="Email"> 
-                                <input type="text" class="form-control" id="country" placeholder="country"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-                                <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
-                                <button type="submit">Sign Up</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <form>
-                                    <div class="checkbox">
-                                        <label><input class="check-adjust" type="checkbox" value="">I agree to all <a href="#">terems&conditions</a></label>
-                                    </div>
-                                    <!-- <input type="checkbox" value="">
-                                    <label class="checkbox-inline">
-                                        I agree to all
-                                    </label> -->
-                                    
-                                </form>
-                                <p> 
-                                    Already have an account ?
-                                    <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
-                                </p> 
-                            </div> 
-                        </div>
-
-                        <!-- login tap -->
-
-                        <div id="menu1" class="tab-pane fade">
-                                <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Log in </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Email/Username"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-
-                                <button type="submit">Log in</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <a href="#forgetpass" data-toggle="modal">forget password</a>
-                                <p> 
-                                    Don't have an account ?
-                                    <a href="#home" data-toggle="pill" class="logintab"> sign up </a> 
-                                </p> 
-                            </div> 
-                        </div>
-                    </div>
                 </div> 
             </div> 
         </div>
@@ -154,7 +219,9 @@
             </div>
         </div>
 
-
+        <?php
+    include 'controllers/footer.php';
+?>
 
         <!-- Jquery js -->
         <script src="js/jquery-3.2.1.js"></script>

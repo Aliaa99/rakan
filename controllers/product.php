@@ -2,7 +2,7 @@
     <a href="ad-details.php">
         <div class="row d-flex">
             <div class="col-md-3 col-sm-4 col-xs-4 text-center">
-                <img class="product-card__img" src="images/adds.png" width="100%" alt="">
+                <img class="product-card__img" src="images/illustrations_images/blue_car.png" width="100%" alt="">
             </div>
             <div class="col-md-9 col-sm-8 col-xs-8">
                 <h4 class="color-black mt-0"><strong>لكزسes350ccموديل2016للبيع او البدل</strong></h4>

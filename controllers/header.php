@@ -132,7 +132,7 @@
                     </div>
                 </ul>
                 <ul class="nav navbar-nav  navbar-right">
-                    <li class="active"><a href="categories.php" class="main-link"><i class="icon-home px-5"></i>الرئيسيه</a></li>
+                    <li class="active"><a href="index.php" class="main-link"><i class="icon-home px-5"></i>الرئيسيه</a></li>
                     <li><a href="messages.php" class="main-link"><i class="icon-mail px-5"></i>الرسائل</a><span class="red-dot"></span></li>
                     <li><a href="notifications.php" class="main-link"><i class="icon-bell px-5"></i>الإشعارات</a><span class="red-dot"></span></li>
                     <li><a href="favorites.php" class="main-link"><i class="icon-love px-5"></i>المفضله</a></li>
